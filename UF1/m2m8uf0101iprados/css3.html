@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+		<style type="text/css">
+			div{
+				height: 100px;
+				width: 100px;
+				background-color: red;
+				transform: rotate(45deg) translateX(100px) translateY(50px);
+			}
+
+			div{
+				animation: manganito 2s linear 0s infinite backwards;
+			}
+
+			@keyframes manganito {
+				0%{
+					opacity: 0;
+					transform: scale(0.1) rotate(45deg) translateX(100px) translateY(50px);
+					background-color: red;
+				}
+
+				100%{
+					opacity: 1;
+					transform: scale(1.5) rotate(-45deg) translateX(100px) translateY(50px);
+					background-color: blue;
+				}
+			}
+
+			@keyframes caca {
+				0%{
+				transform: rotate(45deg) translateX(100px) translateY(50px);
+				}
+
+				100%{
+				transform: rotate(-45deg) translateX(100px) translateY(50px);	
+				}
+			}
+		</style>
+
+		<title>
+			
+		</title>
+	</head>
+
+	<body>
+		<div>
+			
+		</div>
+	</body>
+</html>

@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+
+<style type="text/css">
+
+	body{
+		font-family:  Times, Serif;
+		color: #666;
+	}
+	a:link{
+		color: #606;
+	}
+
+	a:hover{
+		color: #FFF;
+	}
+
+	p{
+		margin: 6px auto;
+	}
+
+	#fons{
+		width: 920px;
+		height: 300px;
+		background-color: #CC9;
+		text-align: center;
+		margin: 0 auto;
+			}
+
+	#capçalera{
+		width: 75%;
+		height: 300px;
+		float: left;
+		
+	}
+
+	#animacio{
+		width: 25%;
+		height: 300px;
+		float: right;
+		background-image: url(gif.gif);
+		background-repeat: no-repeat;
+		background-size: 230px 300px
+	}
+
+	#contingut{
+		width: 920px;
+		background-color: #666;
+		margin: 0 auto;
+ 		overflow: hidden;
+	}
+
+
+	#div1{
+		width: 220px;
+		height: 150px;
+		background-color: #999;
+	 	margin: 5px;
+	 	text-align: center;
+	 	float:left;
+	}
+
+	#div2{
+		width: 220px;
+		height: 150px;
+		background-color: #999;
+	 	margin: 5px;
+	 	display: block;
+	 	text-align: center;
+	 	float:left;
+	}
+
+	#div3{
+		width: 220px;
+		height: 150px;
+		background-color: #999;
+	 	margin: 5px;
+	 	display: block;
+	 	text-align: center;
+	 	float:left;
+	}
+
+	#div4{
+		width: 220px;
+		height: 150px;
+		background-color: #999;
+	 	margin: 5px;
+	 	display: block;
+	 	text-align: center;
+	 	float:left;
+	}
+
+	#div5{
+		width: 220px;
+		height: 150px;
+		background-color: #999;
+	 	margin: 5px;
+	 	display: block;
+	 	text-align: center;
+	 	float:left;
+	}
+
+	#div6{
+		width: 220px;
+		height: 150px;
+		background-color: #999;
+	 	margin: 5px;
+	 	display: block;
+	 	text-align: center;
+	 	float:left;
+	}
+
+	#div7{
+		width: 220px;
+		height: 150px;
+		background-color: #999;
+	 	margin: 5px;
+	 	display: block;
+	 	text-align: center;
+	 	float:left;
+	}
+
+	#div8{
+		width: 220px;
+		height: 150px;
+		background-color: #999;
+	 	margin: 5px;
+	 	display: block;
+	 	text-align: center;
+	 	float:left;
+	}
+
+	#div9{
+		width: 220px;
+		height: 150px;
+		background-color: #999;
+	 	margin: 5px;
+	 	display: block;
+	 	text-align: center;
+	 	float:left;
+	}
+
+	#div10{
+		width: 220px;
+		height: 150px;
+		background-color: #999;
+	 	margin: 5px;
+	 	display: block;
+	 	text-align: center;
+	 	float:left;
+	}
+
+	#div11{
+		width: 220px;
+		height: 150px;
+		background-color: #999;
+	 	margin: 5px;
+	 	display: block;
+	 	text-align: center;
+	 	float:left;
+	}
+
+	#div12{
+		width: 220px;
+		height: 150px;
+		background-color: #999;
+	 	margin: 5px;
+	 	display: block;
+	 	text-align: center;
+	 	float:left;
+	}
+
+	#div13{
+		width: 220px;
+		height: 150px;
+		background-color: #999;
+	 	margin: 5px;
+	 	display: block;
+	 	text-align: center;
+	 	float:left;
+	}
+
+	#div14{
+		width: 220px;
+		height: 150px;
+		background-color: #999;
+	 	margin: 5px;
+	 	display: block;
+	 	text-align: center;
+	 	float:left;
+	}
+
+	#div15{
+		width: 220px;
+		height: 150px;
+		background-color: #999;
+	 	margin: 5px;
+	 	display: block;
+	 	text-align: center;
+	 	float:left;
+	}
+
+	#div16{
+		width: 220px;
+		height: 150px;
+		background-color: #999;
+	 	margin: 5px;
+	 	display: block;
+	 	text-align: center;
+	 	float:left;
+	}
+
+	#div17{
+		width: 220px;
+		height: 150px;
+		background-color: #999;
+	 	margin: 5px;
+	 	display: block;
+	 	text-align: center;
+	 	float:left;
+	}
+
+	#div18{
+		width: 220px;
+		height: 150px;
+		background-color: #999;
+	 	margin: 5px;
+	 	display: block;
+	 	text-align: center;
+	 	float:left;
+	}
+
+	#div19{
+		width: 220px;
+		height: 150px;
+		background-color: #999;
+	 	margin: 5px;
+	 	display: block;
+	 	text-align: center;
+	 	float:left;
+	}
+
+	#div20{
+		width: 220px;
+		height: 150px;
+		background-color: #999;
+	 	margin: 5px;
+	 	display: block;
+	 	text-align: center;
+	 	float:left;
+	}
+
+	#div21{
+		width: 220px;
+		height: 150px;
+		background-color: #999;
+	 	margin: 5px;
+	 	display: block;
+	 	text-align: center;
+	 	float:left;
+	}
+
+	#div22{
+		width: 220px;
+		height: 150px;
+		background-color: #999;
+	 	margin: 5px;
+	 	display: block;
+	 	text-align: center;
+	 	float:left;
+	}
+
+	#div23{
+		width: 220px;
+		height: 150px;
+		background-color: #999;
+	 	margin: 5px;
+	 	display: block;
+	 	text-align: center;
+	 	float:left;
+	}
+
+	#div24{
+		width: 220px;
+		height: 150px;
+		background-color: #999;
+	 	margin: 5px;
+	 	display: block;
+	 	text-align: center;
+	 	float:left;
+	}
+
+	#div25{
+		width: 220px;
+		height: 150px;
+		background-color: #966;
+	 	margin: 5px;
+	 	display: block;
+	 	text-align: center;
+	 	float:left;
+	}
+
+	#div26{
+		width: 220px;
+		height: 150px;
+		background-color: #999;
+	 	margin: 5px;
+	 	display: block;
+	 	text-align: center;
+	 	float:left;
+	}
+
+	#div27{
+		width: 220px;
+		height: 150px;
+		background-color: #999;
+	 	margin: 5px;
+	 	display: block;
+	 	text-align: center;
+	 	float:left;
+	}
+
+	#div28{
+		width: 220px;
+		height: 150px;
+		background-color: #999;
+	 	margin: 5px;
+	 	display: block;
+	 	text-align: center;
+	 	float:left;
+	}
+
+	#div1:hover{
+		background-color: #C99;
+	}
+	#div2:hover{
+		background-color: #C99;
+	}
+	#div3:hover{
+		background-color: #C99;
+	}
+	#div4:hover{
+		background-color: #C99;
+	}
+	#div5:hover{
+		background-color: #C99;
+	}
+	#div6:hover{
+		background-color: #C99;
+	}
+	#div7:hover{
+		background-color: #C99;
+	}
+	#div8:hover{
+		background-color: #C99;
+	}
+	#div9:hover{
+		background-color: #C99;
+	}
+	#div10:hover{
+		background-color: #C99;
+	}
+	#div11:hover{
+		background-color: #C99;
+	}
+	#div12:hover{
+		background-color: #C99;
+	}
+	#div13:hover{
+		background-color: #C99;
+	}
+	#div14:hover{
+		background-color: #C99;
+	}
+	#div15:hover{
+		background-color: #C99;
+	}
+	#div16:hover{
+		background-color: #C99;
+	}
+	#div17:hover{
+		background-color: #C99;
+	}
+	#div18:hover{
+		background-color: #C99;
+	}
+	#div19:hover{
+		background-color: #C99;
+	}
+	#div20:hover{
+		background-color: #C99;
+	}
+	#div21:hover{
+		background-color: #C99;
+	}
+	#div22:hover{
+		background-color: #C99;
+	}
+	#div23:hover{
+		background-color: #C99;
+	}
+	#div24:hover{
+		background-color: #C99;
+	}
+	#div25:hover{
+		background-color: #C99;
+	}
+	#div26:hover{
+		background-color: #C99;
+	}
+	#div27:hover{
+		background-color: #C99;
+	}
+	#div28:hover{
+		background-color: #C99;
+	}
+
+	#peu{
+		width: 920px;
+		height: 30px;
+		background-color: #CC9;
+		padding-top: 10px;
+		margin: 0 auto;
+	}
+
+
+
+</style>
+
+<head>
+	<title>
+		Orla AGM2
+	</title>
+</head>
+<body>
+	<div id="fons">
+		<div id="capçalera">
+			<h5>Institut Esteve Terradas</h5>
+			<h5>Departament d'Arts Gràfiques</h5>
+			<h1>AGM2</h1>
+			<h4>Cicle Mitjà de Preimpressió digital</h4>
+			<h4>M8: Publicacions electròniques</h4>
+			<h4>m2m8uf3prova_iprados</h4>
+		</div>
+		<div id="animacio">	
+		</div>
+		
+	</div>
+
+	<div id="contingut">
+
+		<div id="div1">
+		<p><a href="http://lalarcons-crn.blogspot.com.es" target="blanck"> Laura Alarcón <br/> 
+		<img src="img/01lalarcons.jpg"></a></p>
+			
+		</div>
+
+		<div id="div2">
+		<p><a href="http://giancarlos-artsgrafiques.blogspot.com.es/" target="blanck">Gian Carlo Bajaña <br/>
+			<img src="img/02gcbajana.jpg"> </a></p>
+
+			</a></p>
+		</div>
+
+		<div id="div3">
+		<p><a href="http://gbonsoms-crn.blogspot.com.es/" target="blanck">Gemma Bonsoms <br/>
+			<img src="img/03gbonsoms.jpg"> </a></p>
+		</div>
+
+		<div id="div4">
+		<p><a href="http://lcampos-crn.blogspot.com.es" target="blanck">Laura Campos<br/>
+			<img src="img/04lcampos.jpg"> </a></p>
+
+		</div>
+
+		<div id="div5">
+		<p><a href="http://acarranco-crn.blogspot.com.es/" target="blanck">Adrian Carranco	<br/>
+			<img src="img/05acarranco.jpg"> </a></p>
+
+		</div>
+
+		<div id="div6">
+		<p><a href="http://bcebrian9.blogspot.com.es/" target="blanck">Beatriz Cebrián	<br/>
+		<img src="img/06bcebrian.jpg"> </a></p>
+
+		</div>
+
+		<div id="div7">
+		<p><a href="http://nchia-crn.blogspot.com.es" target="blanck">Noelia Chia<br/>
+			<img src="img/07nchia.jpg"> </a></p>
+
+		</div>
+
+		<div id="div8">
+		<p><a href="http://dcojocaru-crn.blogspot.com.es/" target="blanck">Dumitru Cojocaru <br/>
+			<img src="img/08dcojocaru.jpg"> </a></p>
+
+		</div>
+
+		<div id="div9">
+		<p><a href="http://scordon-crn.blogspot.com.es/" target="blanck">Sergio Cordón <br/>
+			<img src="img/09scordon.jpg"> </a></p>
+
+		</div>
+
+		<div id="div10">
+		<p><a href="http://asdositey-crn.blogspot.com.es/" target="blanck"> Augustine Dositey <br/>
+			<img src="img/10asdositey.jpg"> </a></p>
+
+		</div>
+
+		<div id="div11">
+		<p><a href="http://sfernandez-crn.blogspot.com.es/" target="blanck">Siria Fernandez <br/>
+			<img src="img/11sfernandez.jpg"> </a></p>
+
+		</div>
+
+		<div id="div12">
+		<p><a href="http://jfuster20.blogspot.com.es/" target="blanck">Julia Fuster <br/>
+			<img src="img/12jfuster.jpg"> </a></p>
+
+		</div>
+
+		<div id="div13">
+		<p><a href="http://sgarzon-crn.blogspot.com.es/" target="blanck">Steeven Garzón	 <br/>
+			<img src="img/13msgarzon.jpg"> </a></p>
+
+		</div>
+
+		<div id="div14">
+		<p><a href="http://mgil-crn.blogspot.com.es/" target="blanck">Marc Gil <br/>
+			<img src="img/14mgil.jpg"> </a></p>
+
+		</div>
+
+		<div id="div15">
+		<p><a href="http://ygomez-crn.blogspot.com.es" target="blanck">Yeray Gomez <br/>
+			<img src="img/15ygomez.jpg"> </a></p>
+
+		</div>
+
+		<div id="div16">
+		<p><a href="http://vherrero-crn.blogspot.com.es/" target="blanck">Víctor Herrero <br/>
+		<img src="img/16vherrero.jpg"> </a></p>
+
+		</div>
+
+		<div id="div17">
+		<p><a href="http://apibanez.blogspot.com.es/" target="blanck">Alison Ibáñez <br/>
+			<img src="img/17apibanez.jpg"> </a></p>
+
+		</div>
+
+		<div id="div18">
+		<p><a href="http://millescas97.blogspot.com.es/" target="blanck">Marc Illescas <br/>
+			<img src="img/18millescas.jpg"> </a></p>
+
+		</div>
+
+		<div id="div19">
+		<p><a href="http://olopezc-crn.blogspot.com.es" target="blanck">Oriol López	 <br/>
+			<img src="img/19olopezc.jpg"> </a></p>
+
+		</div>
+
+		<div id="div20">
+		<p><a href="http://nmartinez-crn.blogspot.com.es" target="blanck">Núria Martínez <br/>
+			<img src="img/20nmartinez.jpg"> </a></p>
+
+		</div>
+
+		<div id="div21">
+		<p><a href="http://tmesa-crn.blogspot.com.es/" target="blanck">Tamara Mesa <br/>
+			<img src="img/21tmesa.jpg"> </a></p>
+
+		</div>
+
+		<div id="div22">
+		<p><a href="http://mmunozp-crn.blogspot.com.es" target="blanck">Mario Muñoz <br/>
+			<img src="img/22mmunozp.jpg"> </a></p>
+
+		</div>
+
+		<div id="div23">
+		<p><a href="http://oparicio-crn.blogspot.com.es/" target="blanck">Oriol Paricio <br/>
+			<img src="img/23oparicio.jpg"> </a></p>
+
+		</div>
+
+		<div id="div24">
+		<p><a href="http://dportocarrero.blogspot.com.es/" target="blanck">Daniel Portocarrero <br/>
+			<img src="img/24dportocarrero.jpg"> </a></p>
+
+		</div>
+
+		<div id="div25">
+		<p><a href="http://iprados.blogspot.com.es/" target="blanck">Ignasi Prados <br/>
+			<img src="img/25iprados.jpg"> </a></p>
+
+		</div>
+
+		<div id="div26">
+		<p><a href="http://rrodas-crn.blogspot.com.es/" target="blanck">Roger Rodas <br/>
+			<img src="img/26rrodas.jpg"> </a></p>
+
+		</div>
+
+		<div id="div27">
+		<p><a href="http://yromero-crn.blogspot.com.es/" target="blanck">Yaiza Romero <br/>
+		<img src="img/27yromero.jpg"> </a></p>
+
+		</div>
+
+		<div id="div28">
+		<p><a href="http://llsans-crn.blogspot.com.es/" target="blanck">Llibert Sans <br/>
+			<img src="img/28lsans.jpg"> </a></p>
+		</div>
+
+	</div>
+
+	<div id="peu">
+		copyright: iprados.crn@artsgrafiques.org
+	</div>
+
+</body>
+</html>
