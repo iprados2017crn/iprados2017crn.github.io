@@ -1,0 +1,45 @@
+/*mobil*/
+@media only screen and (max-width: 479px) and (orientation: portrait)
+{
+	body{
+		background-color: red;
+	}
+
+	p{
+		font-family: verdana;
+	}
+}
+
+@media only screen and (max-width: 479px) and (orientation: landscape)
+{
+	body{
+		background-color: green;
+	}
+
+	p{
+		font-family: courier,monospace;
+	}
+}
+
+/*escriptori*/
+@media only screen and (min-width: 480px) and (orientation: portrait)
+{
+	body{
+		background-color: blue;
+	}
+
+	p{
+		font-family: times,georgia;
+	}
+}
+
+@media only screen and (min-width: 480px) and (orientation: landscape)
+{
+	body{
+		background-color: yellow;
+	}
+
+	p{
+		font-family: helvetica,arial;
+	}
+}
