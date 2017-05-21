@@ -1,0 +1,502 @@
+/*escriptori*/
+@media only screen and (min-width: 800px)
+{
+
+		#portada{
+			background-image: url(img/cabecera.jpg);
+			height: 150px;
+			width: 100%;
+			background-position: -350px;
+			background-repeat: no-repeat;
+		}
+
+		#img1{
+			height: 165px;
+			opacity: 0.5;
+			margin: 0 auto;
+			position: relative;
+			left: 34%;
+		}
+
+a{
+	color: rgb(153,26,47);
+	text-decoration: none;
+}
+
+#block{
+cursor: not-allowed;
+}
+
+#color{
+	color: rgb(153,26,47);	
+}
+
+h3{
+	margin: 0px;
+}
+
+h5{
+	margin: 2px;
+}
+
+h4{
+	margin: 2px;
+}
+
+.fondo{
+	background-color: rgba(20,20,20,0.8);
+	width: 85%;
+	margin:0 auto;
+}
+
+#Introduccióduccio{
+	width: 95%;
+	height: 125px;
+	text-align: center;
+	margin: 0 auto;
+	background-color: rgba(255,255,255,0.1);
+}
+
+#Viaggia{
+	width: 95%;
+	height: 200px;
+	margin: 0;
+	margin: 0 auto;
+}
+
+#Viaggia p {
+	width: auto;
+
+	text-align: center;
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-bottom: 0;
+	margin-top: 0;
+	overflow-y: auto;
+	overflow-x: hidden;
+
+
+}
+
+#ATAC1{
+	background-image: url(img/ATAC1_1);
+	width: 200px;
+	height: 200px;
+	float: left;
+}
+
+
+#ATAC2{
+	background-image: url(img/ATAC2_2);
+	width: 112px;
+	height: 200px;
+	float: right;;
+}
+
+#metro{
+	width: 95%;
+	height: 275px;
+	background-color: rgba(255,255,255,0.1);
+	overflow-y: auto;
+	margin: 0 auto;
+}
+
+#metro p{
+	margin: 0;
+}
+
+#lineas_metro{
+	width: 95%;
+	height: 250px;
+	overflow-y: auto;
+	margin: 0 auto;
+}
+
+#_bus{
+	width: 95%;
+	height: 250px;
+	background-color: rgba(255,255,255,0.1);
+	overflow-y: auto;
+	margin: 0 auto;
+}
+
+#tram{
+	width: 95%;
+	height: 250px;
+	overflow-y: auto;
+	margin: 0 auto;
+}
+
+#ebus{
+	width: 95%;
+	height: 120px;
+	background-color: rgba(255,255,255,0.1);
+	overflow-y: auto;
+	margin: 0 auto;
+}
+
+#romapass{
+	width: 95%;
+	height: 250px;
+	overflow-y: auto;
+	margin: 0 auto;
+}
+
+#apartado1{
+	background-image: url(img/apartado1.jpg);
+	background-repeat: no-repeat;
+	height: 100%;
+	width: 100%;
+}
+
+#apartado2{
+	background-image: url(img/apartado_1.jpg);
+	background-repeat: no-repeat;
+	height: 100%;
+	width: 100%;
+}
+
+}
+
+/*mobil*/
+@media only screen and (max-width: 800px) and (orientation: portrait)
+{
+
+		#portada{
+			background-image: url(img/cabecera_portrait.jpg);
+			height: 150px;
+			width: 100%;
+			background-repeat: no-repeat;
+		}
+
+		#img1{
+			height: 165px;
+			opacity: 0.5;
+			margin: 0 auto;
+			position: relative;
+			left: 15%;
+		}
+
+a{
+	color: rgb(153,26,47);
+	text-decoration: none;
+	text-align: center;
+}
+
+#block{
+cursor: not-allowed;
+}
+
+.borde{
+	padding-right: 5px;
+	border-right: solid red 1px;
+}
+
+#color{
+	color: rgb(153,26,47);	
+}
+
+h3{
+	margin: 0px;
+}
+
+h5{
+	margin: 2px;
+}
+
+h4{
+	margin: 2px;
+}
+
+.fondo{
+	background-color: rgba(20,20,20,0.8);
+	width: 85%;
+	margin:0 auto;
+}
+
+#Introduccióduccio{
+	width: 95%;
+	height: 125px;
+	text-align: center;
+	margin: 0 auto;
+	background-color: rgba(255,255,255,0.1);
+	font-size: 0.8em;
+}
+
+#Viaggia{
+	width: 95%;
+	height: 200px;
+	margin: 0;
+	margin: 0 auto;
+}
+
+#Viaggia p {
+	width: auto;
+	text-align: center;
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-bottom: 0;
+	margin-top: 0;
+	overflow-y: auto;
+	overflow-x: hidden;
+	font-size: 0.8em;
+
+
+}
+
+#ATAC1{
+	background-image: url(img/ATAC1_1);
+	width: 50px;
+	height: 50px;
+	float: left;
+}
+
+
+#ATAC2{
+	background-image: url(img/ATAC2_2);
+	width: auto;
+	height: 50px;
+	float: right;;
+}
+
+#metro{
+	width: 95%;
+	height: 350px;
+	background-color: rgba(255,255,255,0.1);
+	overflow-y: auto;
+	margin: 0 auto;
+	font-size: 0.8em;
+}
+
+#metro p{
+	margin: 0;
+}
+
+#lineas_metro{
+	width: 95%;
+	height: 250px;
+	overflow-y: auto;
+	margin: 0 auto;
+	font-size: 0.8em;
+}
+
+#_bus{
+	width: 95%;
+	height: 250px;
+	background-color: rgba(255,255,255,0.1);
+	overflow-y: auto;
+	margin: 0 auto;
+	font-size: 0.8em;
+}
+
+#tram{
+	width: 95%;
+	height: 250px;
+	overflow-y: auto;
+	margin: 0 auto;
+	font-size: 0.8em;
+}
+
+#ebus{
+	width: 95%;
+	height: 120px;
+	background-color: rgba(255,255,255,0.1);
+	overflow-y: auto;
+	margin: 0 auto;
+	font-size: 0.8em;
+}
+
+#romapass{
+	width: 95%;
+	height: 300px;
+	overflow-y: auto;
+	margin: 0 auto;
+	font-size: 0.8em;
+}
+
+#apartado1{
+	background-image: url(img/apartado1_movil.jpg);
+	background-repeat: no-repeat;
+	height: 100%;
+	width: 100%;
+}
+
+#apartado2{
+	background-image: url(img/apartado_1_movil.jpg);
+	background-repeat: no-repeat;
+	height: 100%;
+	width: 100%;
+}
+
+	
+}
+
+@media only screen and (max-width: 800px) and (orientation: landscape)
+{
+
+		#portada{
+			background-image: url(img/cabecera_landscape.jpg);
+			height: 150px;
+			width: 100%;
+			background-repeat: no-repeat;
+		}
+
+		#img1{
+			height: 165px;
+			opacity: 0.5;
+			position: relative;
+			left: 24%;
+		}
+
+a{
+	color: rgb(153,26,47);
+	text-decoration: none;
+}
+
+.borde{
+	padding-right: 5px;
+	border-right: solid red 1px;
+}
+
+#block{
+cursor: not-allowed;
+}
+
+#color{
+	color: rgb(153,26,47);	
+}
+
+h3{
+	margin: 0px;
+}
+
+h5{
+	margin: 2px;
+}
+
+h4{
+	margin: 2px;
+}
+
+.fondo{
+	background-color: rgba(20,20,20,0.8);
+	width: 85%;
+	margin:0 auto;
+}
+
+#Introduccióduccio{
+	width: 95%;
+	height: 125px;
+	text-align: center;
+	margin: 0 auto;
+	background-color: rgba(255,255,255,0.1);
+	font-size: 0.8em;
+}
+
+#Viaggia{
+	width: 95%;
+	height: 200px;
+	margin: 0;
+	margin: 0 auto;
+}
+
+#Viaggia p {
+	width: auto;
+	text-align: center;
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-bottom: 0;
+	margin-top: 0;
+	overflow-y: auto;
+	overflow-x: hidden;
+	font-size: 0.8em;
+
+
+}
+
+#ATAC1{
+	background-image: url(img/ATAC1_1);
+	width: 100px;
+	height: 100px;
+	float: left;
+}
+
+
+#ATAC2{
+	background-image: url(img/ATAC2_2);
+	width: auto;
+	height: 100px;
+	float: right;;
+}
+
+#metro{
+	width: 95%;
+	height: 275px;
+	background-color: rgba(255,255,255,0.1);
+	overflow-y: auto;
+	margin: 0 auto;
+	font-size: 0.8em;
+}
+
+#metro p{
+	margin: 0;
+}
+
+#lineas_metro{
+	width: 95%;
+	height: 250px;
+	overflow-y: auto;
+	margin: 0 auto;
+	font-size: 0.8em;
+}
+
+#_bus{
+	width: 95%;
+	height: 250px;
+	background-color: rgba(255,255,255,0.1);
+	overflow-y: auto;
+	margin: 0 auto;
+	font-size: 0.8em;
+}
+
+#tram{
+	width: 95%;
+	height: 250px;
+	overflow-y: auto;
+	margin: 0 auto;
+	font-size: 0.8em;
+}
+
+#ebus{
+	width: 95%;
+	height: 120px;
+	background-color: rgba(255,255,255,0.1);
+	overflow-y: auto;
+	margin: 0 auto;
+	font-size: 0.8em;
+}
+
+#romapass{
+	width: 95%;
+	height: 250px;
+	overflow-y: auto;
+	margin: 0 auto;
+	font-size: 0.8em;
+}
+
+#apartado1{
+	background-image: url(img/apartado1.jpg);
+	background-repeat: no-repeat;
+	height: 100%;
+	width: 100%;
+}
+
+#apartado2{
+	background-image: url(img/apartado_1.jpg);
+	background-repeat: no-repeat;
+	height: 100%;
+	width: 100%;
+}
+
+	
+}

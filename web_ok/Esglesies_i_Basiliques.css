@@ -1,0 +1,297 @@
+/*escriptori*/
+@media only screen and (min-width: 800px)
+{
+
+body{
+	width: 100%;
+	height: auto;
+	background-color: white;
+	margin: 0 auto;
+	color:white;
+	overflow-x: hidden;
+}
+
+h3{
+	margin: 3px;
+}
+
+h4{
+	margin: 3px;
+}
+
+#portada{
+	background-image: url(img/cabecera.jpg);
+	height: 150px;
+	width: 100%;
+	background-position: -350px;
+	background-repeat: no-repeat;
+}
+
+#img1{
+	height: 150px;
+	opacity: 0.5;
+	margin: 0 auto;
+	position: relative;
+	left: 34%;
+}
+
+.izq{
+	float: left;
+	text-align: left;
+	height: 100%;
+	width: 45%;
+	background-color: rgba(20,20,20,0.9);
+	overflow-y: auto;
+	overflow-x: hidden;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.drc{
+	float: right;
+	text-align: right;
+	height: 100%;
+	width: 45%;
+	background-color: rgba(20,20,20,0.9);
+	overflow-y: auto;
+	overflow-x: hidden;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+#Maggiore{
+	background-image: url(img/Esglesies_i_basiliques/maggiore.jpg);
+	width: 100%;
+	height: 400px;
+}
+
+#Clemente{
+	background-image: url(img/Esglesies_i_basiliques/Clemente.jpg);
+	width: 100%;
+	height: 420px;
+}
+
+#Extramuros{
+	background-image: url(img/Esglesies_i_basiliques/extramuros.jpg);
+	width: 100%;
+	height: 430px;
+}
+
+#Letran{
+	background-image: url(img/Esglesies_i_basiliques/Letran.jpg);
+	width: 100%;
+	height: 500px;
+}
+
+#Concepcio{
+	background-image: url(img/Esglesies_i_basiliques/concepcion.jpg);
+	width: 100%;
+	height: 500px;
+}
+
+#Cosmedin{
+	background-image: url(img/Esglesies_i_basiliques/cosmedin.jpg);
+	width: 100%;
+	height: 500px;
+}
+
+}
+
+/*mobil*/
+@media only screen and (max-width: 800px) and (orientation: portrait)
+{
+
+body{
+	width: 100%;
+	height: auto;
+	background-color: white;
+	margin: 0 auto;
+	color:white;
+	overflow-x: hidden;
+}
+
+h3{
+	margin: 3px;
+}
+
+h4{
+	margin: 3px;
+}
+
+#portada{
+	background-image: url(img/cabecera_portrait.jpg);
+	height: 150px;
+	width: 100%;
+	background-repeat: no-repeat;
+}
+
+#img1{
+	height: 150px;
+	opacity: 0.5;
+	margin: 0 auto;
+	position: relative;
+	left: 15%;
+}
+
+.izq{
+	float: left;
+	text-align: left;
+	height: 100%;
+	width: 45%;
+	background-color: rgba(20,20,20,0.9);
+	overflow-y: auto;
+	overflow-x: hidden;
+	padding-left: 15px;
+	padding-right: 15px;
+	font-size: 0.8em;
+}
+
+.drc{
+	float: right;
+	text-align: right;
+	height: 100%;
+	width: 45%;
+	background-color: rgba(20,20,20,0.9);
+	overflow-y: auto;
+	overflow-x: hidden;
+	padding-left: 15px;
+	padding-right: 15px;
+	font-size: 0.8em;
+}
+
+#Maggiore{
+	background-image: url(img/Esglesies_i_basiliques/maggiore_movil.jpg);
+	width: 100%;
+	height: 400px;
+}
+
+#Clemente{
+	background-image: url(img/Esglesies_i_basiliques/Clemente_movil.jpg);
+	width: 100%;
+	height: 420px;
+}
+
+#Extramuros{
+	background-image: url(img/Esglesies_i_basiliques/extramuros_movil.jpg);
+	width: 100%;
+	height: 430px;
+}
+
+#Letran{
+	background-image: url(img/Esglesies_i_basiliques/Letran_movil.jpg);
+	width: 100%;
+	height: 500px;
+}
+
+#Concepcio{
+	background-image: url(img/Esglesies_i_basiliques/concepcion_movil.jpg);
+	width: 100%;
+	height: 500px;
+}
+
+#Cosmedin{
+	background-image: url(img/Esglesies_i_basiliques/cosmedin_movil.jpg);
+	width: 100%;
+	height: 500px;
+}
+
+}
+
+@media only screen and (max-width: 800px) and (orientation: landscape)
+{
+
+body{
+	width: 100%;
+	height: auto;
+	background-color: white;
+	margin: 0 auto;
+	color:white;
+	overflow-x: hidden;
+}
+
+h3{
+	margin: 3px;
+}
+
+h4{
+	margin: 3px;
+}
+
+#portada{
+	background-image: url(img/cabecera_landscape.jpg);
+	height: 150px;
+	width: 100%;
+	background-repeat: no-repeat;
+}
+
+#img1{
+	height: 150px;
+	opacity: 0.5;
+	margin: 0 auto;
+	position: relative;
+	left: 24%;
+}
+
+.izq{
+	float: left;
+	text-align: left;
+	height: 100%;
+	width: 45%;
+	background-color: rgba(20,20,20,0.9);
+	overflow-y: auto;
+	overflow-x: hidden;
+	padding-left: 15px;
+	padding-right: 15px;
+	font-size: 0.8em;
+}
+
+.drc{
+	float: right;
+	text-align: right;
+	height: 100%;
+	width: 45%;
+	background-color: rgba(20,20,20,0.9);
+	overflow-y: auto;
+	overflow-x: hidden;
+	padding-left: 15px;
+	padding-right: 15px;
+	font-size: 0.8em;
+}
+
+#Maggiore{
+	background-image: url(img/Esglesies_i_basiliques/maggiore_movil.jpg);
+	width: 100%;
+	height: 400px;
+}
+
+#Clemente{
+	background-image: url(img/Esglesies_i_basiliques/Clemente_movil.jpg);
+	width: 100%;
+	height: 420px;
+}
+
+#Extramuros{
+	background-image: url(img/Esglesies_i_basiliques/extramuros_movil.jpg);
+	width: 100%;
+	height: 430px;
+}
+
+#Letran{
+	background-image: url(img/Esglesies_i_basiliques/Letran_movil.jpg);
+	width: 100%;
+	height: 500px;
+}
+
+#Concepcio{
+	background-image: url(img/Esglesies_i_basiliques/concepcion_movil.jpg);
+	width: 100%;
+	height: 500px;
+}
+
+#Cosmedin{
+	background-image: url(img/Esglesies_i_basiliques/cosmedin_movil.jpg);
+	width: 100%;
+	height: 500px;
+}
+
+}
