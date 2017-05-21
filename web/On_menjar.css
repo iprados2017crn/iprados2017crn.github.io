@@ -1,0 +1,810 @@
+/*escriptori*/
+@media only screen and (min-width: 800px)
+{
+
+body{
+	width: 100%;
+	height: auto;
+	background-color: white;
+	color: white;
+	margin: 0 auto;
+	overflow-x: hidden;
+	background-color: rgb(20,20,20);
+	padding-bottom: 30px;
+}
+
+p{
+	text-align: center;
+	font-size: 1em;
+}
+
+h3{
+	margin: 3px;
+}
+
+h4{
+	margin: 3px;
+}
+
+	a{
+		color: white;
+		text-decoration: none;
+	}
+
+#portada{
+	background-image: url(img/cabecera.jpg);
+	height: 150px;
+	width: 100%;
+	background-position: -350px;
+	background-repeat: no-repeat;
+}
+
+#img1{
+	height: 165px;
+	opacity: 0.5;
+	margin: 0 auto;
+	position: relative;
+	left: 34%;
+}
+
+#Introducció{
+	width: 100%;
+	height: 50px;
+	text-align: center;
+}
+
+.container {
+  position: relative;
+  width: 300px;
+}
+
+.image {
+  overflow-y: auto;
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: rgba(20,20,20,0.9);
+  overflow: hidden;
+  width: 300px;
+  height:0;
+  margin: 0 auto;
+  transition: 1s ease;
+}
+
+.image:hover .overlay {
+  bottom: 0;
+  height: 300px;
+}
+
+.text {
+  color: white;
+  font-size: 12px;
+  position: absolute;
+  overflow-y: auto;
+  text-align:center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.float{
+	float: left;
+  margin-left: 67px;
+  margin-top: 30px; 
+}
+
+.hover:hover{
+	color: red;
+}
+
+#Trastevere{
+width: 100%;
+height: auto;
+overflow-y:auto;
+text-align:center;
+
+}
+
+#Corsetti{
+	background-image: url(img/On_menjar/1.trastevere/corsetti.jpg);
+	background-repeat: no-repeat;
+	margin: 0 auto;
+}
+
+#Poeta{
+	background-image: url(img/On_menjar/1.trastevere/DAR-POETA.jpg);
+	background-repeat: no-repeat;
+	margin: 0 auto;
+}
+
+#Fontanone{
+	background-image: url(img/On_menjar/1.trastevere/fontanone.jpg);
+	background-repeat: no-repeat;
+	margin: 0 auto;
+}
+
+#POPIPOPI{
+	background-image: url(img/On_menjar/1.trastevere/popi-popi.jpg);
+	background-repeat: no-repeat;
+	margin: 0 auto;
+}
+
+#GLASS{
+	background-image: url(img/On_menjar/1.trastevere/Hostaria-GLASS.jpg);
+	background-repeat: no-repeat;
+	margin: 0 auto;
+}
+
+#DIVINO{
+	background-image: url(img/On_menjar/1.trastevere/Spirito-DIVINO.jpg);
+	background-repeat: no-repeat;
+	margin: 0 auto;
+}
+
+#IVO{
+	background-image: url(img/On_menjar/1.trastevere/PIZZERIA-IVO.jpg);
+	background-repeat: no-repeat;
+	margin: 0 auto;
+}
+
+#RAFFAELLO{
+	background-image: url(img/On_menjar/1.trastevere/raffaello-hotel.jpg);
+	background-repeat: no-repeat;
+	margin: 0 auto;
+}
+
+#Colosseo{
+width: 100%;
+height: auto;
+overflow-y:auto;
+text-align:center;
+margin-top: 30px;
+}
+
+#FORUM{
+	background-image: url(img/On_menjar/2.coliseo/PIZZA-FORUM.jpg);
+	background-repeat: no-repeat;
+	margin: 0 auto;
+}
+
+#NAUMACHIA{
+	background-image: url(img/On_menjar/2.coliseo/NAUMACHIA.jpg);
+	background-repeat: no-repeat;
+	margin: 0 auto;
+}
+
+#ANGEL{
+	background-image: url(img/On_menjar/2.coliseo/CAFFE-DEGLI-ANGELI.jpg);
+	background-repeat: no-repeat;
+	margin: 0 auto;
+}
+
+#Centro{
+width: 100%;
+height: auto;
+overflow-y:auto;
+text-align:center;
+margin-top: 30px;
+}
+
+#Rienzo{
+	background-image: url(img/On_menjar/3.centro/di-Rienzo.jpg);
+	background-repeat: no-repeat;
+	margin: 0 auto;
+}
+
+#ORO{
+	background-image: url(img/On_menjar/3.centro/IL-peperoncino-DORO.jpg);
+	background-repeat: no-repeat;
+	margin: 0 auto;
+}
+
+#Tritone{
+	background-image: url(img/On_menjar/3.centro/A-Tritone.jpg);
+	background-repeat: no-repeat;
+	margin: 0 auto;
+}
+
+#MONTECARLO{
+	background-image: url(img/On_menjar/3.centro/montecarlo.jpg);
+	background-repeat: no-repeat;
+	margin: 0 auto;
+}
+
+#AMICI{
+	background-image: url(img/On_menjar/3.centro/RE-DEGLI-AMICI.jpg);
+	background-repeat: no-repeat;
+	margin: 0 auto;
+}
+
+#TONINO{
+	background-image: url(img/On_menjar/3.centro/DA-TONINO.jpg);
+	background-repeat: no-repeat;
+	margin: 0 auto;
+}
+
+#LIBRARY{
+	background-image: url(img/On_menjar/3.centro/LIBRARY.jpg);
+	background-repeat: no-repeat;
+	margin: 0 auto;
+}
+
+#CULDESAC{
+	background-image: url(img/On_menjar/3.centro/CUL-DE-SAC.jpg);
+	background-repeat: no-repeat;
+	margin: 0 auto;
+}
+
+#RAMPA{
+	background-image: url(img/On_menjar/3.centro/ALLA-RAMPA.jpg);
+	background-repeat: no-repeat;
+	margin: 0 auto;
+}
+
+#DRAPPO{
+	background-image: url(img/On_menjar/3.centro/IL-DRAPPO.jpg);
+	background-repeat: no-repeat;
+	margin: 0 auto;
+}
+
+#BAFFETTO{
+	background-image: url(img/On_menjar/3.centro/DA-BAFFETTO.jpg);
+	background-repeat: no-repeat;
+	margin: 0 auto;
+}
+
+#Margutta{
+	background-image: url(img/On_menjar/3.centro/IL-Margutta.jpg);
+	background-repeat: no-repeat;
+	margin: 0 auto;
+}
+
+}
+
+/*mobil*/
+@media only screen and (max-width: 800px) and (orientation: portrait)
+{
+
+body{
+	width: 100%;
+	height: auto;
+	background-color: white;
+	color: white;
+	margin: 0 auto;
+	overflow-x: hidden;
+	background-color: rgb(20,20,20);
+	padding-bottom: 30px;
+}
+
+p{
+	text-align: center;
+	font-size: 0.7em;
+}
+
+h3{
+	margin: 3px;
+}
+
+h4{
+	margin: 3px;
+}
+
+	a{
+		color: white;
+		text-decoration: none;
+	}
+
+#portada{
+	background-image: url(img/cabecera_portrait.jpg);
+	height: 150px;
+	width: 100%;
+	background-repeat: no-repeat;
+}
+
+#img1{
+	height: 150px;
+	opacity: 0.5;
+	margin: 0 auto;
+	position: relative;
+	left: 15%;
+}
+
+#Introducció{
+	width: 100%;
+	height: 50px;
+	text-align: center;
+	font-size: 0.8em;
+}
+
+.container {
+  position: relative;
+  width: 200px;
+}
+
+.image {
+  overflow-y: auto;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: rgba(20,20,20,0.9);
+  overflow: hidden;
+  width: 200px;
+  height:0;
+  margin: 0 auto;
+  transition: 1s ease;
+}
+
+.image:hover .overlay {
+  bottom: 0;
+  height: 200px;
+}
+
+.text {
+  color: white;
+  font-size: 12px;
+  position: absolute;
+  overflow-y: auto;
+  text-align:center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.float{
+	float: left;
+  margin-left: 67px;
+  margin-top: 30px; 
+}
+
+.hover:hover{
+	color: red;
+}
+
+#Trastevere{
+width: 100%;
+height: auto;
+overflow-y:auto;
+text-align:center;
+
+}
+
+#Corsetti{
+	background-image: url(img/On_menjar/1.trastevere/corsetti2.jpg);
+	background-repeat: no-repeat;
+	margin: 0 auto;
+}
+
+#Poeta{
+	background-image: url(img/On_menjar/1.trastevere/DAR-POETA2.jpg);
+	background-repeat: no-repeat;
+	margin: 0 auto;
+}
+
+#Fontanone{
+	background-image: url(img/On_menjar/1.trastevere/fontanone2.jpg);
+	background-repeat: no-repeat;
+	margin: 0 auto;
+}
+
+#POPIPOPI{
+	background-image: url(img/On_menjar/1.trastevere/popi-popi2.jpg);
+	background-repeat: no-repeat;
+	margin: 0 auto;
+}
+
+#GLASS{
+	background-image: url(img/On_menjar/1.trastevere/Hostaria-GLASS2.jpg);
+	background-repeat: no-repeat;
+	margin: 0 auto;
+}
+
+#DIVINO{
+	background-image: url(img/On_menjar/1.trastevere/Spirito-DIVINO2.jpg);
+	background-repeat: no-repeat;
+	margin: 0 auto;
+}
+
+#IVO{
+	background-image: url(img/On_menjar/1.trastevere/PIZZERIA-IVO2.jpg);
+	background-repeat: no-repeat;
+	margin: 0 auto;
+}
+
+#RAFFAELLO{
+	background-image: url(img/On_menjar/1.trastevere/raffaello-hotel2.jpg);
+	background-repeat: no-repeat;
+	margin: 0 auto;
+}
+
+#Colosseo{
+width: 100%;
+height: auto;
+overflow-y:auto;
+text-align:center;
+margin-top: 30px;
+}
+
+#FORUM{
+	background-image: url(img/On_menjar/2.coliseo/PIZZA-FORUM2.jpg);
+	background-repeat: no-repeat;
+	margin: 0 auto;
+}
+
+#NAUMACHIA{
+	background-image: url(img/On_menjar/2.coliseo/NAUMACHIA2.jpg);
+	background-repeat: no-repeat;
+	margin: 0 auto;
+}
+
+#ANGEL{
+	background-image: url(img/On_menjar/2.coliseo/CAFFE-DEGLI-ANGELI2.jpg);
+	background-repeat: no-repeat;
+	margin: 0 auto;
+}
+
+#Centro{
+width: 100%;
+height: auto;
+overflow-y:auto;
+text-align:center;
+margin-top: 30px;
+}
+
+#Rienzo{
+	background-image: url(img/On_menjar/3.centro/di-Rienzo2.jpg);
+	background-repeat: no-repeat;
+	margin: 0 auto;
+}
+
+#ORO{
+	background-image: url(img/On_menjar/3.centro/IL-peperoncino-DORO2.jpg);
+	background-repeat: no-repeat;
+	margin: 0 auto;
+}
+
+#Tritone{
+	background-image: url(img/On_menjar/3.centro/A-Tritone2.jpg);
+	background-repeat: no-repeat;
+	margin: 0 auto;
+}
+
+#MONTECARLO{
+	background-image: url(img/On_menjar/3.centro/montecarlo2.jpg);
+	background-repeat: no-repeat;
+	margin: 0 auto;
+}
+
+#AMICI{
+	background-image: url(img/On_menjar/3.centro/RE-DEGLI-AMICI2.jpg);
+	background-repeat: no-repeat;
+	margin: 0 auto;
+}
+
+#TONINO{
+	background-image: url(img/On_menjar/3.centro/DA-TONINO2.jpg);
+	background-repeat: no-repeat;
+	margin: 0 auto;
+}
+
+#LIBRARY{
+	background-image: url(img/On_menjar/3.centro/LIBRARY2.jpg);
+	background-repeat: no-repeat;
+	margin: 0 auto;
+}
+
+#CULDESAC{
+	background-image: url(img/On_menjar/3.centro/CUL-DE-SAC2.jpg);
+	background-repeat: no-repeat;
+	margin: 0 auto;
+}
+
+#RAMPA{
+	background-image: url(img/On_menjar/3.centro/ALLA-RAMPA2.jpg);
+	background-repeat: no-repeat;
+	margin: 0 auto;
+}
+
+#DRAPPO{
+	background-image: url(img/On_menjar/3.centro/IL-DRAPPO2.jpg);
+	background-repeat: no-repeat;
+	margin: 0 auto;
+}
+
+#BAFFETTO{
+	background-image: url(img/On_menjar/3.centro/DA-BAFFETTO2.jpg);
+	background-repeat: no-repeat;
+	margin: 0 auto;
+}
+
+#Margutta{
+	background-image: url(img/On_menjar/3.centro/IL-Margutta2.jpg);
+	background-repeat: no-repeat;
+	margin: 0 auto;
+}
+
+}
+
+@media only screen and (max-width: 800px) and (orientation: landscape)
+{
+
+body{
+	width: 100%;
+	height: auto;
+	background-color: white;
+	color: white;
+	margin: 0 auto;
+	overflow-x: hidden;
+	background-color: rgb(20,20,20);
+	padding-bottom: 30px;
+}
+
+p{
+	text-align: center;
+	font-size: 0.9em;
+}
+
+h3{
+	margin: 3px;
+}
+
+h4{
+	margin: 3px;
+}
+
+	a{
+		color: white;
+		text-decoration: none;
+	}
+
+#portada{
+	background-image: url(img/cabecera_landscape.jpg);
+	height: 150px;
+	width: 100%;
+	background-repeat: no-repeat;
+}
+
+#img1{
+	height: 150px;
+	opacity: 0.5;
+	margin: 0 auto;
+	position: relative;
+	left: 24%;
+}
+
+#Introducció{
+	width: 100%;
+	height: 50px;
+	text-align: center;
+}
+
+.container {
+  position: relative;
+  width: 300px;
+}
+
+.image {
+  overflow-y: auto;
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: rgba(20,20,20,0.9);
+  overflow: hidden;
+  width: 300px;
+  height:0;
+  margin: 0 auto;
+  transition: 1s ease;
+}
+
+.image:hover .overlay {
+  bottom: 0;
+  height: 300px;
+}
+
+.text {
+  color: white;
+  font-size: 12px;
+  position: absolute;
+  overflow-y: auto;
+  text-align:center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.float{
+	float: left;
+  margin-left: 67px;
+  margin-top: 30px; 
+}
+
+.hover:hover{
+	color: red;
+}
+
+#Trastevere{
+width: 100%;
+height: auto;
+overflow-y:auto;
+text-align:center;
+
+}
+
+#Corsetti{
+	background-image: url(img/On_menjar/1.trastevere/corsetti.jpg);
+	background-repeat: no-repeat;
+	margin: 0 auto;
+}
+
+#Poeta{
+	background-image: url(img/On_menjar/1.trastevere/DAR-POETA.jpg);
+	background-repeat: no-repeat;
+	margin: 0 auto;
+}
+
+#Fontanone{
+	background-image: url(img/On_menjar/1.trastevere/fontanone.jpg);
+	background-repeat: no-repeat;
+	margin: 0 auto;
+}
+
+#POPIPOPI{
+	background-image: url(img/On_menjar/1.trastevere/popi-popi.jpg);
+	background-repeat: no-repeat;
+	margin: 0 auto;
+}
+
+#GLASS{
+	background-image: url(img/On_menjar/1.trastevere/Hostaria-GLASS.jpg);
+	background-repeat: no-repeat;
+	margin: 0 auto;
+}
+
+#DIVINO{
+	background-image: url(img/On_menjar/1.trastevere/Spirito-DIVINO.jpg);
+	background-repeat: no-repeat;
+	margin: 0 auto;
+}
+
+#IVO{
+	background-image: url(img/On_menjar/1.trastevere/PIZZERIA-IVO.jpg);
+	background-repeat: no-repeat;
+	margin: 0 auto;
+}
+
+#RAFFAELLO{
+	background-image: url(img/On_menjar/1.trastevere/raffaello-hotel.jpg);
+	background-repeat: no-repeat;
+	margin: 0 auto;
+}
+
+#Colosseo{
+width: 100%;
+height: auto;
+overflow-y:auto;
+text-align:center;
+margin-top: 30px;
+}
+
+#FORUM{
+	background-image: url(img/On_menjar/2.coliseo/PIZZA-FORUM.jpg);
+	background-repeat: no-repeat;
+	margin: 0 auto;
+}
+
+#NAUMACHIA{
+	background-image: url(img/On_menjar/2.coliseo/NAUMACHIA.jpg);
+	background-repeat: no-repeat;
+	margin: 0 auto;
+}
+
+#ANGEL{
+	background-image: url(img/On_menjar/2.coliseo/CAFFE-DEGLI-ANGELI.jpg);
+	background-repeat: no-repeat;
+	margin: 0 auto;
+}
+
+#Centro{
+width: 100%;
+height: auto;
+overflow-y:auto;
+text-align:center;
+margin-top: 30px;
+}
+
+#Rienzo{
+	background-image: url(img/On_menjar/3.centro/di-Rienzo.jpg);
+	background-repeat: no-repeat;
+	margin: 0 auto;
+}
+
+#ORO{
+	background-image: url(img/On_menjar/3.centro/IL-peperoncino-DORO.jpg);
+	background-repeat: no-repeat;
+	margin: 0 auto;
+}
+
+#Tritone{
+	background-image: url(img/On_menjar/3.centro/A-Tritone.jpg);
+	background-repeat: no-repeat;
+	margin: 0 auto;
+}
+
+#MONTECARLO{
+	background-image: url(img/On_menjar/3.centro/montecarlo.jpg);
+	background-repeat: no-repeat;
+	margin: 0 auto;
+}
+
+#AMICI{
+	background-image: url(img/On_menjar/3.centro/RE-DEGLI-AMICI.jpg);
+	background-repeat: no-repeat;
+	margin: 0 auto;
+}
+
+#TONINO{
+	background-image: url(img/On_menjar/3.centro/DA-TONINO.jpg);
+	background-repeat: no-repeat;
+	margin: 0 auto;
+}
+
+#LIBRARY{
+	background-image: url(img/On_menjar/3.centro/LIBRARY.jpg);
+	background-repeat: no-repeat;
+	margin: 0 auto;
+}
+
+#CULDESAC{
+	background-image: url(img/On_menjar/3.centro/CUL-DE-SAC.jpg);
+	background-repeat: no-repeat;
+	margin: 0 auto;
+}
+
+#RAMPA{
+	background-image: url(img/On_menjar/3.centro/ALLA-RAMPA.jpg);
+	background-repeat: no-repeat;
+	margin: 0 auto;
+}
+
+#DRAPPO{
+	background-image: url(img/On_menjar/3.centro/IL-DRAPPO.jpg);
+	background-repeat: no-repeat;
+	margin: 0 auto;
+}
+
+#BAFFETTO{
+	background-image: url(img/On_menjar/3.centro/DA-BAFFETTO.jpg);
+	background-repeat: no-repeat;
+	margin: 0 auto;
+}
+
+#Margutta{
+	background-image: url(img/On_menjar/3.centro/IL-Margutta.jpg);
+	background-repeat: no-repeat;
+	margin: 0 auto;
+}
+	
+}

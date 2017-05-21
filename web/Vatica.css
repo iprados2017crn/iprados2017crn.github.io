@@ -1,0 +1,288 @@
+/*escriptori*/
+@media only screen and (min-width: 800px)
+{
+
+body{
+	width: 100%;
+	height: auto;
+	background-color: white;
+	color: white;
+	margin: 0 auto;
+	overflow-x: hidden;
+}
+
+p{
+	text-align: center;
+	font-size: 0.7em;
+}
+
+h3{
+	margin: 3px;
+}
+
+h4{
+	margin: 3px;
+}
+
+#portada{
+	background-image: url(img/cabecera.jpg);
+	height: 150px;
+	width: 100%;
+	background-position: -350px;
+	background-repeat: no-repeat;
+}
+
+#img1{
+	height: 165px;
+	opacity: 0.5;
+	margin: 0 auto;
+	position: relative;
+	left: 34%;
+}
+
+.izq{
+	float: left;
+	text-align: left;
+	height: 100%;
+	width: 45%;
+	background-color: rgba(20,20,20,0.9);
+	overflow-y: auto;
+	overflow-x: hidden;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.drc{
+	float: right;
+	text-align: right;
+	height: 100%;
+	width: 45%;
+	background-color: rgba(20,20,20,0.9);
+	overflow-y: auto;
+	overflow-x: hidden;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+#Vatica{
+	background-image: url(img/Vatica/vaticano_wallpaper2.jpg);
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 250px;
+}
+
+#Basilica{
+	background-image: url(img/Vatica/Basilica-de-San-Pedro2.jpg);
+	background-repeat: no-repeat;
+	height: 550px;
+	width: 100%;
+}
+
+#Sixtina{
+	background-image: url(img/Vatica/capilla_sixtina2.jpg);
+	background-repeat: no-repeat;
+	height: 550px;
+	width: 100%;
+}
+
+#Plaça{
+	background-image: url(img/Vatica/plaza_pedro2.jpg);
+	background-repeat: no-repeat;
+	height: 250px;
+	width: 100%;
+}
+
+}
+
+/*mobil*/
+@media only screen and (max-width: 800px) and (orientation: portrait)
+{
+
+body{
+	width: 100%;
+	height: auto;
+	background-color: white;
+	color: white;
+	margin: 0 auto;
+	overflow-x: hidden;
+}
+
+p{
+	text-align: center;
+	font-size: 0.7em;
+}
+
+h3{
+	margin: 3px;
+}
+
+h4{
+	margin: 3px;
+}
+
+#portada{
+	background-image: url(img/cabecera_portrait.jpg);
+	height: 150px;
+	width: 100%;
+	background-repeat: no-repeat;
+}
+
+#img1{
+	height: 150px;
+	opacity: 0.5;
+	margin: 0 auto;
+	position: relative;
+	left: 15%;
+}
+
+.izq{
+	float: left;
+	text-align: left;
+	height: 100%;
+	width: 45%;
+	background-color: rgba(20,20,20,0.9);
+	overflow-y: auto;
+	overflow-x: hidden;
+	padding-left: 15px;
+	padding-right: 15px;
+	font-size: 0.7em;
+}
+
+.drc{
+	float: right;
+	text-align: right;
+	height: 100%;
+	width: 45%;
+	background-color: rgba(20,20,20,0.9);
+	overflow-y: auto;
+	overflow-x: hidden;
+	padding-left: 15px;
+	padding-right: 15px;
+	font-size: 0.7em;
+}
+
+#Vatica{
+	background-image: url(img/Vatica/vaticano_wallpaper3.jpg);
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 250px;
+}
+
+#Basilica{
+	background-image: url(img/Vatica/Basilica-de-San-Pedro3.jpg);
+	background-repeat: no-repeat;
+	height: 550px;
+	width: 100%;
+}
+
+#Sixtina{
+	background-image: url(img/Vatica/capilla_sixtina3.jpg);
+	background-repeat: no-repeat;
+	height: 550px;
+	width: 100%;
+}
+
+#Plaça{
+	background-image: url(img/Vatica/plaza_pedro3.jpg);
+	background-repeat: no-repeat;
+	height: 250px;
+	width: 100%;
+}
+	
+}
+
+@media only screen and (max-width: 800px) and (orientation: landscape)
+{
+
+body{
+	width: 100%;
+	height: auto;
+	background-color: white;
+	color: white;
+	margin: 0 auto;
+	overflow-x: hidden;
+}
+
+p{
+	text-align: center;
+	font-size: 0.7em;
+}
+
+h3{
+	margin: 3px;
+}
+
+h4{
+	margin: 3px;
+}
+
+#portada{
+	background-image: url(img/cabecera_portrait.jpg);
+	height: 150px;
+	width: 100%;
+	background-repeat: no-repeat;
+}
+
+#img1{
+	height: 150px;
+	opacity: 0.5;
+	margin: 0 auto;
+	position: relative;
+	left: 15%;
+}
+
+.izq{
+	float: left;
+	text-align: left;
+	height: 100%;
+	width: 45%;
+	background-color: rgba(20,20,20,0.9);
+	overflow-y: auto;
+	overflow-x: hidden;
+	padding-left: 15px;
+	padding-right: 15px;
+	font-size: 0.9em;
+}
+
+.drc{
+	float: right;
+	text-align: right;
+	height: 100%;
+	width: 45%;
+	background-color: rgba(20,20,20,0.9);
+	overflow-y: auto;
+	overflow-x: hidden;
+	padding-left: 15px;
+	padding-right: 15px;
+	font-size: 0.9em;
+}
+
+#Vatica{
+	background-image: url(img/Vatica/vaticano_wallpaper3.jpg);
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 250px;
+}
+
+#Basilica{
+	background-image: url(img/Vatica/Basilica-de-San-Pedro3.jpg);
+	background-repeat: no-repeat;
+	height: 550px;
+	width: 100%;
+}
+
+#Sixtina{
+	background-image: url(img/Vatica/capilla_sixtina3.jpg);
+	background-repeat: no-repeat;
+	height: 550px;
+	width: 100%;
+}
+
+#Plaça{
+	background-image: url(img/Vatica/plaza_pedro3.jpg);
+	background-repeat: no-repeat;
+	height: 250px;
+	width: 100%;
+}
+	
+}

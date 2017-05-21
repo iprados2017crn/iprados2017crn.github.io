@@ -1,0 +1,575 @@
+/*escriptori*/
+@media only screen and (min-width: 800px)
+{
+
+body{
+	width: 100%;
+	height: auto;
+	background-color: white;
+	margin: 0 auto;
+	color: white;
+	overflow-x: hidden;
+}
+
+h3{
+	margin: 3px;
+}
+
+h4{
+	margin: 3px;
+}
+
+#portada{
+	background-image: url(img/cabecera.jpg);
+	height: 150px;
+	width: 100%;
+	background-position: -350px;
+	background-repeat: no-repeat;
+}
+
+#img1{
+	height: 165px;
+	opacity: 0.5;
+	margin: 0 auto;
+	position: relative;
+	left: 34%;
+}
+
+.izq{
+	float: left;
+	text-align: left;
+	height: 100%;
+	width: 45%;
+	background-color: rgba(20,20,20,0.9);
+	overflow-y: auto;
+	overflow-x: hidden;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.izqu{
+	float: left;
+	text-align: left;
+	height:129px;
+	width: 45%;
+	background-color: rgba(20,20,20,0.9);
+	overflow-y: auto;
+	overflow-x: hidden;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.drc{
+	float: right;
+	text-align: right;
+	height: 100%;
+	width: 45%;
+	background-color: rgba(20,20,20,0.9);
+	overflow-y: auto;
+	overflow-x: hidden;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+#Queveure{
+	background-image: url(img/Que_veure/roma2.jpg);
+	width: 100%;
+	height: 175px;
+}
+
+#Trajano{
+	background-image: url(img/Que_veure/mercati_di_traiano.jpg);
+	height: 450px;
+	width: 100%;
+}
+
+#Constanti{
+	background-image: url(img/Que_veure/Arco-de-constantino.jpg);
+	height: 375px;
+	width: 100%;
+}
+
+#Victor{
+	background-image: url(img/Que_veure/Monumento-a-Victor.jpg);
+	height: 500px;
+	width: 100%;
+}
+
+#Termas{
+	background-image: url(img/Que_veure/Termas-de-caracalla.jpg);
+	height: 650px;
+	width: 100%;
+}
+
+#Circo{
+	background-image: url(img/Que_veure/circo.jpg);
+	height: 750px;
+	width: 100%;
+}
+
+#Sacra{
+	background-image: url(img/Que_veure/Sacra.jpg);
+	height: 500px;
+	width: 100%;
+}
+
+#bocadelaverita{
+	background-image: url(img/Que_veure/bocadellaVerita.jpg);
+	height: 700px;
+	width: 100%;
+}
+
+#Colosseo{
+	background-image: url(img/Que_veure/colosseo-romano.jpg);
+	height: 800px;
+	width: 100%;
+}
+
+#Foro{
+	background-image: url(img/Que_veure/foro.jpg);
+	height: 700px;
+	width: 100%;
+}
+
+#Fontana{
+	background-image: url(img/Que_veure/fontana.jpg);
+	height: 375px;
+	width: 100%;
+}
+
+#Panteon{
+	background-image: url(img/Que_veure/panteon.jpg);
+	height: 350px;
+	width: 100%;
+}
+
+#Espanya{
+	background-image: url(img/Que_veure/piazza_spagna.jpg);
+	height: 510px;
+	width: 100%;
+}
+
+#Navona{
+	background-image: url(img/Que_veure/piazza-navona.jpg);
+	height: 400px;
+	width: 100%;
+}
+
+#Catacumbas{
+	background-image: url(img/Que_veure/Catacumba.jpg);
+	height: 1550px;
+	width: 100%;
+}
+
+.linea{
+	width: 100%;
+	height: 0.7px;
+	background-color: white;
+	margin: 2px 0;
+}
+
+#Trastevere{
+	background-image: url(img/Que_veure/trastevere.jpg);
+	height: 400px;
+	width: 100%;
+}
+
+#SantAngelo{
+	background-image: url(img/Que_veure/Castillo-de-SantAngelo.jpg);
+	height: 600px;
+	width: 100%;
+}
+
+#Borghese{
+	background-image: url(img/Que_veure/Villa.jpg);
+	height: 575px;
+	width: 100%;
+}
+
+}
+
+/*mobil*/
+@media only screen and (max-width: 800px) and (orientation: portrait)
+{
+
+body{
+	width: 100%;
+	height: auto;
+	background-color: white;
+	margin: 0 auto;
+	color: white;
+	overflow-x: hidden;
+}
+
+h3{
+	margin: 3px;
+}
+
+h4{
+	margin: 3px;
+}
+
+#portada{
+	background-image: url(img/cabecera_portrait.jpg);
+	height: 150px;
+	width: 100%;
+	background-repeat: no-repeat;
+}
+
+#img1{
+	height: 150px;
+	opacity: 0.5;
+	margin: 0 auto;
+	position: relative;
+	left: 15%;
+}
+
+.izq{
+	float: left;
+	text-align: left;
+	height: 100%;
+	width: 45%;
+	background-color: rgba(20,20,20,0.9);
+	overflow-y: auto;
+	overflow-x: hidden;
+	padding-left: 15px;
+	padding-right: 15px;
+	font-size: 0.8em;
+}
+
+.izqu{
+	text-align: center;
+	margin: 0 auto;
+	height:154px;
+	width: 45%;
+	background-color: rgba(20,20,20,0.9);
+	overflow-y: auto;
+	overflow-x: hidden;
+	padding-left: 15px;
+	padding-right: 15px;
+	font-size: 0.8em;
+}
+
+.drc{
+	float: right;
+	text-align: right;
+	height: 100%;
+	width: 45%;
+	background-color: rgba(20,20,20,0.9);
+	overflow-y: auto;
+	overflow-x: hidden;
+	padding-left: 15px;
+	padding-right: 15px;
+	font-size: 0.8em;
+}
+
+#Queveure{
+	background-image: url(img/Que_veure/roma2_movil.jpg);
+	width: 100%;
+	height: 175px;
+	margin: 0 auto;
+}
+
+#Trajano{
+	background-image: url(img/Que_veure/mercati_di_traiano_movil.jpg);
+	height: 450px;
+	width: 100%;
+}
+
+#Constanti{
+	background-image: url(img/Que_veure/Arco-de-constantino_movil.jpg);
+	height: 375px;
+	width: 100%;
+}
+
+#Victor{
+	background-image: url(img/Que_veure/Monumento-a-Victor_movil.jpg);
+	height: 500px;
+	width: 100%;
+}
+
+#Termas{
+	background-image: url(img/Que_veure/Termas-de-caracalla_movil.jpg);
+	height: 650px;
+	width: 100%;
+}
+
+#Circo{
+	background-image: url(img/Que_veure/circo_movil.jpg);
+	height: 750px;
+	width: 100%;
+}
+
+#Sacra{
+	background-image: url(img/Que_veure/Sacra_movil.jpg);
+	height: 500px;
+	width: 100%;
+}
+
+#bocadelaverita{
+	background-image: url(img/Que_veure/bocadellaVerita_movil.jpg);
+	height: 700px;
+	width: 100%;
+}
+
+#Colosseo{
+	background-image: url(img/Que_veure/colosseo-romano_movil.jpg);
+	height: 800px;
+	width: 100%;
+}
+
+#Foro{
+	background-image: url(img/Que_veure/foro_movil.jpg);
+	height: 700px;
+	width: 100%;
+}
+
+#Fontana{
+	background-image: url(img/Que_veure/fontana_movil.jpg);
+	height: 375px;
+	width: 100%;
+}
+
+#Panteon{
+	background-image: url(img/Que_veure/panteon_movil.jpg);
+	height: 350px;
+	width: 100%;
+}
+
+#Espanya{
+	background-image: url(img/Que_veure/piazza_spagna_movil.jpg);
+	height: 510px;
+	width: 100%;
+}
+
+#Navona{
+	background-image: url(img/Que_veure/piazza-navona_movil.jpg);
+	height: 400px;
+	width: 100%;
+}
+
+#Catacumbas{
+	background-image: url(img/Que_veure/Catacumba_movil.jpg);
+	height: 1550px;
+	width: 100%;
+}
+
+.linea{
+	width: 100%;
+	height: 0.7px;
+	background-color: white;
+	margin: 2px 0;
+}
+
+#Trastevere{
+	background-image: url(img/Que_veure/trastevere_movil.jpg);
+	height: 400px;
+	width: 100%;
+}
+
+#SantAngelo{
+	background-image: url(img/Que_veure/Castillo-de-SantAngelo_movil.jpg);
+	height: 600px;
+	width: 100%;
+}
+
+#Borghese{
+	background-image: url(img/Que_veure/Villa_movil.jpg);
+	height: 575px;
+	width: 100%;
+}
+
+	
+}
+
+@media only screen and (max-width: 800px) and (orientation: landscape)
+{
+
+body{
+	width: 100%;
+	height: auto;
+	background-color: white;
+	margin: 0 auto;
+	color: white;
+	overflow-x: hidden;
+}
+
+h3{
+	margin: 3px;
+}
+
+h4{
+	margin: 3px;
+}
+
+#portada{
+	background-image: url(img/cabecera_landscape.jpg);
+	height: 150px;
+	width: 100%;
+	background-repeat: no-repeat;
+}
+
+#img1{
+	height: 150px;
+	opacity: 0.5;
+	margin: 0 auto;
+	position: relative;
+	left: 24%;
+}
+
+.izq{
+	float: left;
+	text-align: left;
+	height: 100%;
+	width: 45%;
+	background-color: rgba(20,20,20,0.9);
+	overflow-y: auto;
+	overflow-x: hidden;
+	padding-left: 15px;
+	padding-right: 15px;
+	font-size: 0.8em;
+}
+
+.izqu{
+	float: left;
+	text-align: left;
+	height:129px;
+	width: 45%;
+	background-color: rgba(20,20,20,0.9);
+	overflow-y: auto;
+	overflow-x: hidden;
+	padding-left: 15px;
+	padding-right: 15px;
+	font-size: 0.8em;
+}
+
+.drc{
+	float: right;
+	text-align: right;
+	height: 100%;
+	width: 45%;
+	background-color: rgba(20,20,20,0.9);
+	overflow-y: auto;
+	overflow-x: hidden;
+	padding-left: 15px;
+	padding-right: 15px;
+	font-size: 0.8em;
+}
+
+#Queveure{
+	background-image: url(img/Que_veure/roma2_movil.jpg);
+	width: 100%;
+	height: 175px;
+}
+
+#Trajano{
+	background-image: url(img/Que_veure/mercati_di_traiano_movil.jpg);
+	height: 450px;
+	width: 100%;
+}
+
+#Constanti{
+	background-image: url(img/Que_veure/Arco-de-constantino_movil.jpg);
+	height: 375px;
+	width: 100%;
+}
+
+#Victor{
+	background-image: url(img/Que_veure/Monumento-a-Victor_movil.jpg);
+	height: 500px;
+	width: 100%;
+}
+
+#Termas{
+	background-image: url(img/Que_veure/Termas-de-caracalla_movil.jpg);
+	height: 650px;
+	width: 100%;
+}
+
+#Circo{
+	background-image: url(img/Que_veure/circo_movil.jpg);
+	height: 750px;
+	width: 100%;
+}
+
+#Sacra{
+	background-image: url(img/Que_veure/Sacra_movil.jpg);
+	height: 500px;
+	width: 100%;
+}
+
+#bocadelaverita{
+	background-image: url(img/Que_veure/bocadellaVerita_movil.jpg);
+	height: 700px;
+	width: 100%;
+}
+
+#Colosseo{
+	background-image: url(img/Que_veure/colosseo-romano_movil.jpg);
+	height: 800px;
+	width: 100%;
+}
+
+#Foro{
+	background-image: url(img/Que_veure/foro_movil.jpg);
+	height: 700px;
+	width: 100%;
+}
+
+#Fontana{
+	background-image: url(img/Que_veure/fontana_movil.jpg);
+	height: 375px;
+	width: 100%;
+}
+
+#Panteon{
+	background-image: url(img/Que_veure/panteon_movil.jpg);
+	height: 350px;
+	width: 100%;
+}
+
+#Espanya{
+	background-image: url(img/Que_veure/piazza_spagna_movil.jpg);
+	height: 510px;
+	width: 100%;
+}
+
+#Navona{
+	background-image: url(img/Que_veure/piazza-navona_movil.jpg);
+	height: 400px;
+	width: 100%;
+}
+
+#Catacumbas{
+	background-image: url(img/Que_veure/Catacumba_movil.jpg);
+	height: 1550px;
+	width: 100%;
+}
+
+.linea{
+	width: 100%;
+	height: 0.7px;
+	background-color: white;
+	margin: 2px 0;
+}
+
+#Trastevere{
+	background-image: url(img/Que_veure/trastevere_movil.jpg);
+	height: 400px;
+	width: 100%;
+}
+
+#SantAngelo{
+	background-image: url(img/Que_veure/Castillo-de-SantAngelo_movil.jpg);
+	height: 600px;
+	width: 100%;
+}
+
+#Borghese{
+	background-image: url(img/Que_veure/Villa_movil.jpg);
+	height: 575px;
+	width: 100%;
+}
+
+	
+}
