@@ -72,7 +72,7 @@
   margin: 5px;
   position: fixed;
   z-index: 1;
-  top: 90%;
+  top: 0%;
   left: 75%;
   border: 1.5px solid rgba(255,128,0,1);
 }
