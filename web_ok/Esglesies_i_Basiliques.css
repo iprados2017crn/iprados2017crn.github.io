@@ -1,11 +1,10 @@
 /*escriptori*/
-@media only screen and (min-width: 800px)
+@media only screen and (min-width: 801px)
 {
 
 body{
 	width: 100%;
 	height: auto;
-	background-color: white;
 	margin: 0 auto;
 	color:white;
 	overflow-x: hidden;
@@ -98,13 +97,12 @@ h4{
 }
 
 /*mobil*/
-@media only screen and (max-width: 800px) and (orientation: portrait)
+@media only screen and (max-width: 799px) and (orientation: portrait)
 {
 
 body{
 	width: 100%;
 	height: auto;
-	background-color: white;
 	margin: 0 auto;
 	color:white;
 	overflow-x: hidden;
@@ -197,13 +195,12 @@ h4{
 
 }
 
-@media only screen and (max-width: 800px) and (orientation: landscape)
+@media only screen and (max-width: 799px) and (orientation: landscape)
 {
 
 body{
 	width: 100%;
 	height: auto;
-	background-color: white;
 	margin: 0 auto;
 	color:white;
 	overflow-x: hidden;

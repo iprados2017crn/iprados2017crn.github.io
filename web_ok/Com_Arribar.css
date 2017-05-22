@@ -2,6 +2,14 @@
 @media only screen and (min-width: 800px)
 {
 
+		body{
+	width: 100%;
+	height: auto;
+	color: white;
+	margin: 0 auto;
+	overflow-x: hidden;
+	}
+
 		#portada{
 			background-image: url(img/cabecera.jpg);
 			height: 150px;
@@ -152,11 +160,15 @@
 }
 
 /*mobil*/
-@media only screen and (max-width: 800px) and (orientation: portrait)
+@media only screen and (max-width: 799px) and (orientation: portrait)
 {
 
 	body{
-		overflow-x: hidden;
+	width: 100%;
+	height: auto;
+	color: white;
+	margin: 0 auto;
+	overflow-x: hidden;
 	}
 
 		#portada{
@@ -311,11 +323,15 @@
 	
 }
 
-@media only screen and (max-width: 800px) and (orientation: landscape)
+@media only screen and (max-width: 799px) and (orientation: landscape)
 {
 
 	body{
-		overflow-x: hidden;
+	width: 100%;
+	height: auto;
+	color: white;
+	margin: 0 auto;
+	overflow-x: hidden;
 	}
 
 		#portada{

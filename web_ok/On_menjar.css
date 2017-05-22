@@ -5,7 +5,6 @@
 body{
 	width: 100%;
 	height: auto;
-	background-color: white;
 	color: white;
 	margin: 0 auto;
 	overflow-x: hidden;
@@ -270,13 +269,12 @@ margin-top: 30px;
 }
 
 /*mobil*/
-@media only screen and (max-width: 800px) and (orientation: portrait)
+@media only screen and (max-width: 799px) and (orientation: portrait)
 {
 
 body{
 	width: 100%;
 	height: auto;
-	background-color: white;
 	color: white;
 	margin: 0 auto;
 	overflow-x: hidden;
@@ -540,13 +538,12 @@ margin-top: 30px;
 
 }
 
-@media only screen and (max-width: 800px) and (orientation: landscape)
+@media only screen and (max-width: 799px) and (orientation: landscape)
 {
 
 body{
 	width: 100%;
 	height: auto;
-	background-color: white;
 	color: white;
 	margin: 0 auto;
 	overflow-x: hidden;
@@ -595,13 +592,13 @@ h4{
 
 .container {
   position: relative;
-  width: 300px;
+  width: 200px;
 }
 
 .image {
   overflow-y: auto;
-  width: 300px;
-  height: 300px;
+  width: 200px;
+  height: 200px;
   margin: 0 auto;
 }
 
@@ -612,7 +609,7 @@ h4{
   right: 0;
   background-color: rgba(20,20,20,0.9);
   overflow: hidden;
-  width: 300px;
+  width: 200px;
   height:0;
   margin: 0 auto;
   transition: 1s ease;
@@ -620,7 +617,7 @@ h4{
 
 .image:hover .overlay {
   bottom: 0;
-  height: 300px;
+  height: 200px;
 }
 
 .text {
@@ -637,7 +634,7 @@ h4{
 
 .float{
 	float: left;
-  margin-left: 67px;
+  margin-left: 25px;
   margin-top: 30px; 
 }
 
@@ -654,49 +651,49 @@ text-align:center;
 }
 
 #Corsetti{
-	background-image: url(img/On_menjar/1.trastevere/corsetti.jpg);
+	background-image: url(img/On_menjar/1.trastevere/corsetti2.jpg);
 	background-repeat: no-repeat;
 	margin: 0 auto;
 }
 
 #Poeta{
-	background-image: url(img/On_menjar/1.trastevere/DAR-POETA.jpg);
+	background-image: url(img/On_menjar/1.trastevere/DAR-POETA2.jpg);
 	background-repeat: no-repeat;
 	margin: 0 auto;
 }
 
 #Fontanone{
-	background-image: url(img/On_menjar/1.trastevere/fontanone.jpg);
+	background-image: url(img/On_menjar/1.trastevere/fontanone2.jpg);
 	background-repeat: no-repeat;
 	margin: 0 auto;
 }
 
 #POPIPOPI{
-	background-image: url(img/On_menjar/1.trastevere/popi-popi.jpg);
+	background-image: url(img/On_menjar/1.trastevere/popi-popi2.jpg);
 	background-repeat: no-repeat;
 	margin: 0 auto;
 }
 
 #GLASS{
-	background-image: url(img/On_menjar/1.trastevere/Hostaria-GLASS.jpg);
+	background-image: url(img/On_menjar/1.trastevere/Hostaria-GLASS2.jpg);
 	background-repeat: no-repeat;
 	margin: 0 auto;
 }
 
 #DIVINO{
-	background-image: url(img/On_menjar/1.trastevere/Spirito-DIVINO.jpg);
+	background-image: url(img/On_menjar/1.trastevere/Spirito-DIVINO2.jpg);
 	background-repeat: no-repeat;
 	margin: 0 auto;
 }
 
 #IVO{
-	background-image: url(img/On_menjar/1.trastevere/PIZZERIA-IVO.jpg);
+	background-image: url(img/On_menjar/1.trastevere/PIZZERIA-IVO2.jpg);
 	background-repeat: no-repeat;
 	margin: 0 auto;
 }
 
 #RAFFAELLO{
-	background-image: url(img/On_menjar/1.trastevere/raffaello-hotel.jpg);
+	background-image: url(img/On_menjar/1.trastevere/raffaello-hotel2.jpg);
 	background-repeat: no-repeat;
 	margin: 0 auto;
 }
@@ -710,19 +707,19 @@ margin-top: 30px;
 }
 
 #FORUM{
-	background-image: url(img/On_menjar/2.coliseo/PIZZA-FORUM.jpg);
+	background-image: url(img/On_menjar/2.coliseo/PIZZA-FORUM2.jpg);
 	background-repeat: no-repeat;
 	margin: 0 auto;
 }
 
 #NAUMACHIA{
-	background-image: url(img/On_menjar/2.coliseo/NAUMACHIA.jpg);
+	background-image: url(img/On_menjar/2.coliseo/NAUMACHIA2.jpg);
 	background-repeat: no-repeat;
 	margin: 0 auto;
 }
 
 #ANGEL{
-	background-image: url(img/On_menjar/2.coliseo/CAFFE-DEGLI-ANGELI.jpg);
+	background-image: url(img/On_menjar/2.coliseo/CAFFE-DEGLI-ANGELI2.jpg);
 	background-repeat: no-repeat;
 	margin: 0 auto;
 }
@@ -736,73 +733,73 @@ margin-top: 30px;
 }
 
 #Rienzo{
-	background-image: url(img/On_menjar/3.centro/di-Rienzo.jpg);
+	background-image: url(img/On_menjar/3.centro/di-Rienzo2.jpg);
 	background-repeat: no-repeat;
 	margin: 0 auto;
 }
 
 #ORO{
-	background-image: url(img/On_menjar/3.centro/IL-peperoncino-DORO.jpg);
+	background-image: url(img/On_menjar/3.centro/IL-peperoncino-DORO2.jpg);
 	background-repeat: no-repeat;
 	margin: 0 auto;
 }
 
 #Tritone{
-	background-image: url(img/On_menjar/3.centro/A-Tritone.jpg);
+	background-image: url(img/On_menjar/3.centro/A-Tritone2.jpg);
 	background-repeat: no-repeat;
 	margin: 0 auto;
 }
 
 #MONTECARLO{
-	background-image: url(img/On_menjar/3.centro/montecarlo.jpg);
+	background-image: url(img/On_menjar/3.centro/montecarlo2.jpg);
 	background-repeat: no-repeat;
 	margin: 0 auto;
 }
 
 #AMICI{
-	background-image: url(img/On_menjar/3.centro/RE-DEGLI-AMICI.jpg);
+	background-image: url(img/On_menjar/3.centro/RE-DEGLI-AMICI2.jpg);
 	background-repeat: no-repeat;
 	margin: 0 auto;
 }
 
 #TONINO{
-	background-image: url(img/On_menjar/3.centro/DA-TONINO.jpg);
+	background-image: url(img/On_menjar/3.centro/DA-TONINO2.jpg);
 	background-repeat: no-repeat;
 	margin: 0 auto;
 }
 
 #LIBRARY{
-	background-image: url(img/On_menjar/3.centro/LIBRARY.jpg);
+	background-image: url(img/On_menjar/3.centro/LIBRARY2.jpg);
 	background-repeat: no-repeat;
 	margin: 0 auto;
 }
 
 #CULDESAC{
-	background-image: url(img/On_menjar/3.centro/CUL-DE-SAC.jpg);
+	background-image: url(img/On_menjar/3.centro/CUL-DE-SAC2.jpg);
 	background-repeat: no-repeat;
 	margin: 0 auto;
 }
 
 #RAMPA{
-	background-image: url(img/On_menjar/3.centro/ALLA-RAMPA.jpg);
+	background-image: url(img/On_menjar/3.centro/ALLA-RAMPA2.jpg);
 	background-repeat: no-repeat;
 	margin: 0 auto;
 }
 
 #DRAPPO{
-	background-image: url(img/On_menjar/3.centro/IL-DRAPPO.jpg);
+	background-image: url(img/On_menjar/3.centro/IL-DRAPPO2.jpg);
 	background-repeat: no-repeat;
 	margin: 0 auto;
 }
 
 #BAFFETTO{
-	background-image: url(img/On_menjar/3.centro/DA-BAFFETTO.jpg);
+	background-image: url(img/On_menjar/3.centro/DA-BAFFETTO2.jpg);
 	background-repeat: no-repeat;
 	margin: 0 auto;
 }
 
 #Margutta{
-	background-image: url(img/On_menjar/3.centro/IL-Margutta.jpg);
+	background-image: url(img/On_menjar/3.centro/IL-Margutta2.jpg);
 	background-repeat: no-repeat;
 	margin: 0 auto;
 }
