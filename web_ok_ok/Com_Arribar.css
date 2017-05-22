@@ -1,0 +1,489 @@
+/*escriptori*/
+@media only screen and (min-width: 800px)
+{
+
+		body{
+	width: 100%;
+	height: auto;
+	color: white;
+	margin: 0 auto;
+	overflow-x: hidden;
+	}
+
+		#portada{
+			background-image: url(img/cabecera.jpg);
+			height: 150px;
+			width: 100%;
+			background-position: -350px;
+			background-repeat: no-repeat;
+		}
+
+		#img1{
+			height: 165px;
+			opacity: 0.5;
+			margin: 0 auto;
+			position: relative;
+			left: 34%;
+		}
+
+		#comarribar{
+			background-image: url(img/avio.jpg);
+			background-position: -200px;
+			height: 500px;
+			width: 100%;
+		}
+
+		#text3{
+			width: 40%;
+			height: 100%;
+			text-align: left;
+			float: left;
+			background-color: rgba(20,20,20, 0.9);
+			overflow-y: auto;
+		}
+
+		#text3 p{
+			margin-left: 15px;
+			margin-right: 15px;
+			color: white;
+		}
+
+		h2{
+			color: white;
+			text-align: center;
+			margin: 0;
+		}
+
+		h2{
+			margin: 0;
+			text-align: center;
+		}
+
+		table{
+			color: white;
+			margin: 0 auto;
+		}
+
+
+	a{
+		color: red;
+		text-decoration: none;
+	}
+
+	a:hover{
+		color: white;
+	}
+
+		td, th{
+			border: 1px solid red;
+			margin: 0 auto;
+		}
+
+	td, th:hover{
+		border: 1px solid white;
+	}
+
+		th a{
+			margin: 15px;
+		}
+
+		#img2{
+			width: 100%;
+			height: 450px;
+			color: white;
+			background-image: url(img/avion2.jpg);
+			background-position: -180px;
+		}
+
+		#Fiumicino{
+			width: 48%;
+			height: 100%;
+			background-color: rgba(20,20,20, 0.9);
+			float: left;
+			overflow-y: auto;
+		}
+
+		#Ciampino{
+			width: 48%;
+			height: 100%;
+			background-color: rgba(20,20,20, 0.9);
+			float: right;
+			text-align: right;
+			overflow-y: auto;
+		}
+
+		#img2 p{
+			margin-left: 15px;
+			margin-right: 15px;
+		}
+
+		#consell{
+			width: 100%;
+			height:60px;
+			color: white;
+			font-size: 0.8em;
+			background-color: rgb(20,20,20);
+			overflow-y: auto;
+			text-align: center;
+		}
+
+		#img3{
+			width: 100%;
+			height: 400px;
+			color: white;
+			background-image: url(img/avion.jpg);
+		}
+
+		#tren{
+			background-image: url(img/tren1.jpg);
+			background-position: -100px;
+			width: 100%;
+			height: 375px;
+		}
+
+		#trentext{
+			height: 100%;
+			width: 40%;
+			background-color: rgba(20,20,20,0.9);
+			float: right;
+			text-align: right;
+			color: white;
+			overflow-y: auto;
+		}
+
+		#trentext p{
+			margin-left: 15px;
+			margin-right: 15px;
+		}
+
+
+}
+
+/*mobil*/
+@media only screen and (max-width: 799px) and (orientation: portrait)
+{
+
+	body{
+	width: 100%;
+	height: auto;
+	color: white;
+	margin: 0 auto;
+	overflow-x: hidden;
+	}
+
+		#portada{
+			background-image: url(img/cabecera_portrait.jpg);
+			height: 150px;
+			width: 100%;
+			background-repeat: no-repeat;
+		}
+
+		#img1{
+			height: 150px;
+			opacity: 0.5;
+			position: relative;
+			left: 15%;
+		}
+
+		#comarribar{
+			background-image: url(img/avio_movil.jpg);
+			height: 500px;
+			width: 100%;
+		}
+
+		#text3{
+			width: 45%;
+			height: 100%;
+			text-align: left;
+			float: left;
+			background-color: rgba(20,20,20, 0.9);
+			overflow-y: auto;
+			font-size: 0.8em;
+		}
+
+		#text3 p{
+			margin-left: 15px;
+			margin-right: 15px;
+			color: white;
+		}
+
+		h2{
+			color: white;
+			text-align: center;
+			margin: 0;
+		}
+
+		h2{
+			margin: 0;
+			text-align: center;
+		}
+
+		table{
+			color: white;
+			margin: 0 auto;
+			overflow-x: hidden;
+		}
+
+
+	a{
+		color: red;
+		text-decoration: none;
+	}
+
+	a:hover{
+		color: white;
+	}
+
+		td, th{
+			border: 1px solid red;
+			margin: 0 auto;
+			font-size: 1em;
+			overflow-x: hidden;
+		}
+
+	td, th:hover{
+		border: 1px solid white;
+	}
+
+		th a{
+			margin: 15px;
+			overflow-x: hidden;
+		}
+
+		#img2{
+			width: 100%;
+			height: 450px;
+			color: white;
+			background-image: url(img/avion2_movil.jpg);
+		}
+
+		#Fiumicino{
+			width: 60%;
+			height: 100%;
+			background-color: rgba(20,20,20, 0.9);
+			margin: 0 auto;
+			text-align: center;
+			overflow-y: auto;
+			font-size: 0.8em;
+		}
+
+		#Ciampino{
+			width: 60%;
+			height: 100%;
+			background-color: rgba(20,20,20, 0.9);
+			margin: 0 auto;
+			text-align: center;
+			overflow-y: auto;
+			font-size: 0.8em;
+		}
+
+		#img2 p{
+			margin-left: 15px;
+			margin-right: 15px;
+		}
+
+		#consell{
+			width: 100%;
+			height:60px;
+			color: white;
+			font-size: 0.7em;
+			background-color: rgb(20,20,20);
+			overflow-y: auto;
+			text-align: center;
+		}
+
+		#img3{
+			width: 100%;
+			height: 400px;
+			color: white;
+			background-image: url(img/avion_movil.jpg);
+		}
+
+		#tren{
+			background-image: url(img/tren1_movil.jpg);
+			width: 100%;
+			height: 375px;
+		}
+
+		#trentext{
+			height: 100%;
+			width: 45%;
+			background-color: rgba(20,20,20,0.9);
+			float: right;
+			text-align: right;
+			color: white;
+			overflow-y: auto;
+			font-size: 0.8em;
+		}
+
+		#trentext p{
+			margin-left: 15px;
+			margin-right: 15px;
+		}
+	
+}
+
+@media only screen and (max-width: 799px) and (orientation: landscape)
+{
+
+	body{
+	width: 100%;
+	height: auto;
+	color: white;
+	margin: 0 auto;
+	overflow-x: hidden;
+	}
+
+		#portada{
+			background-image: url(img/cabecera_landscape.jpg);
+			height: 150px;
+			width: 100%;
+			background-repeat: no-repeat;
+		}
+
+		#img1{
+			height: 150px;
+			opacity: 0.5;
+			position: relative;
+			left: 24%;
+		}
+
+		#comarribar{
+			background-image: url(img/avio_movil.jpg);
+			height: 500px;
+			width: 100%;
+			overflow-x: hidden;
+		}
+
+		#text3{
+			width: 40%;
+			height: 100%;
+			text-align: left;
+			float: left;
+			background-color: rgba(20,20,20, 0.9);
+			overflow-y: auto;
+			overflow-x: hidden;
+			font-size: 0.8em;
+		}
+
+		#text3 p{
+			margin-left: 15px;
+			margin-right: 15px;
+			color: white;
+			overflow-x: hidden;
+		}
+
+		h2{
+			color: white;
+			text-align: center;
+			margin: 0;
+		}
+
+		h2{
+			margin: 0;
+			text-align: center;
+		}
+
+		table{
+			color: white;
+			margin: 0 auto;
+		}
+
+
+	a{
+		color: red;
+		text-decoration: none;
+	}
+
+	a:hover{
+		color: white;
+	}
+
+		td, th{
+			border: 1px solid red;
+			margin: 0 auto;
+		}
+
+	td, th:hover{
+		border: 1px solid white;
+	}
+
+		th a{
+			margin: 15px;
+		}
+
+		#img2{
+			width: 100%;
+			height: 450px;
+			color: white;
+			background-image: url(img/avion2_movil.jpg);
+		}
+
+		#Fiumicino{
+			width: 48%;
+			height: 100%;
+			background-color: rgba(20,20,20, 0.9);
+			float: left;
+			overflow-y: auto;
+			overflow-x: hidden;
+			font-size: 0.8em;
+		}
+
+		#Ciampino{
+			width: 48%;
+			height: 100%;
+			background-color: rgba(20,20,20, 0.9);
+			float: right;
+			text-align: right;
+			overflow-y: auto;
+			overflow-x: hidden;
+			font-size: 0.8em;
+		}
+
+		#img2 p{
+			margin-left: 15px;
+			margin-right: 15px;
+		}
+
+		#consell{
+			width: 100%;
+			height:60px;
+			color: white;
+			font-size: 0.8em;
+			background-color: rgb(20,20,20);
+			overflow-y: auto;
+			overflow-x: hidden;
+			text-align: center;
+		}
+
+		#img3{
+			width: 100%;
+			height: 400px;
+			color: white;
+			background-image: url(img/avion_movil.jpg);
+		}
+
+		#tren{
+			background-image: url(img/tren1_movil.jpg);
+			width: 100%;
+			height: 375px;
+		}
+
+		#trentext{
+			height: 100%;
+			width: 40%;
+			background-color: rgba(20,20,20,0.9);
+			float: right;
+			text-align: right;
+			color: white;
+			overflow-y: auto;
+			overflow-x: hidden;
+			font-size: 0.8em;
+		}
+
+		#trentext p{
+			margin-left: 15px;
+			margin-right: 15px;
+		}
+
+}

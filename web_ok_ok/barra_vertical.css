@@ -1,0 +1,145 @@
+/*escriptori*/
+@media only screen and (min-width: 800px)
+{
+
+#barra2{
+    background-color: rgb(20,20,20);
+    font-size: 0.8em;
+    color: white;
+	height: auto;
+	color: white;
+	width: 130px;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 75px;
+    background-color: #f1f1f1;
+    float: left;
+    color: white;
+}
+
+li a {
+    display: block;
+    text-decoration: none;
+}
+
+li a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+.ancho{
+	width: 100%;
+}
+
+}
+
+/*mobil*/
+@media only screen and (max-width: 799px) and (orientation: portrait)
+{
+
+    body{
+        width: 100%;
+        height: auto;
+        overflow-x: hidden;
+    }
+
+#barra2{
+    background-color: rgb(20,20,20);
+    font-size: 0.6em;
+    color: white;
+    height: auto;
+    color: white;
+    width: 90px;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 50px;
+    background-color: #f1f1f1;
+    float: left;
+        color: white;
+}
+
+li a {
+    display: block;
+    text-decoration: none;
+}
+
+li a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+.ancho{
+    width: 100%;
+}
+
+}
+
+@media only screen and (max-width: 799px) and (orientation: landscape)
+{
+
+        body{
+        width: 100%;
+        height: 100%;
+        overflow-x: hidden;
+    }
+
+#barra2{
+    background-color: rgb(20,20,20);
+    font-size: 0.6em;
+    color: white;
+    height: auto;
+    color: white;
+    width: 100px;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 75px;
+    background-color: #f1f1f1;
+    float: left;
+        color: white;
+}
+
+li a {
+    display: block;
+    text-decoration: none;
+}
+
+li a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+.ancho{
+    width: 100%;
+}
+
+}

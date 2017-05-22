@@ -1,0 +1,168 @@
+/*escriptori*/
+@media only screen and (min-width: 800px)
+{
+
+body{
+	width: 100%;
+	height: auto;
+	background-color: white;
+	color: white;
+	margin: 0 auto;
+	overflow-x: hidden;
+	background-color: rgb(20,20,20);
+	padding-bottom: 30px;
+}
+
+#portada{
+	background-image: url(img/cabecera.jpg);
+	height: 150px;
+	width: 100%;
+	background-position: -350px;
+	background-repeat: no-repeat;
+}
+
+#img1{
+	width: auto;
+	height: 165px;
+	opacity: 0.5;
+	margin: 0 auto;
+	position: relative;
+	left: 34%;
+}
+
+img{
+	width: 100%;
+}
+
+h3{
+	margin-bottom: 0px;
+}
+
+#center{
+	width: 50%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+	a{
+		color: white;
+		text-decoration: none;
+	}
+
+.hover:hover{
+	color: red;
+}
+
+}
+
+/*mobil*/
+@media only screen and (max-width: 799px) and (orientation: portrait)
+{
+
+body{
+	width: 100%;
+	height: auto;
+	color: white;
+	margin: 0 auto;
+	overflow-x: hidden;
+	background-color: rgb(20,20,20);
+	padding-bottom: 30px;
+}
+
+#portada{
+	background-image: url(img/cabecera_portrait.jpg);
+	height: 150px;
+	width: 100%;
+	background-repeat: no-repeat;
+}
+
+#img1{
+	width: auto;
+	height: 150px;
+	opacity: 0.5;
+	margin: 0 auto;
+	position: relative;
+	left: 12.5%;
+}
+
+img{
+	width: 100%;
+}
+
+h3{
+	margin-bottom: 0px;
+}
+
+#center{
+	width: 50%;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 0.8em;
+	line-height: 1.7em;
+}
+
+	a{
+		color: white;
+		text-decoration: none;
+	}
+
+.hover:hover{
+	color: red;
+}
+	
+}
+
+@media only screen and (max-width: 799px) and (orientation: landscape)
+{
+
+body{
+	width: 100%;
+	height: auto;
+	color: white;
+	margin: 0 auto;
+	overflow-x: hidden;
+	background-color: rgb(20,20,20);
+	padding-bottom: 30px;
+}
+
+#portada{
+	background-image: url(img/cabecera_landscape.jpg);
+	height: 150px;
+	width: 100%;
+	background-repeat: no-repeat;
+}
+
+#img1{
+	width: auto;
+	height: 150px;
+	opacity: 0.5;
+	margin: 0 auto;
+	position: relative;
+	left: 24%;
+}
+
+img{
+	width: 100%;
+}
+
+h3{
+	margin-bottom: 0px;
+}
+
+#center{
+	width: 50%;
+	margin: 0 auto;
+	text-align: center;
+	line-height: 1.5em;
+}
+
+	a{
+		color: white;
+		text-decoration: none;
+	}
+
+.hover:hover{
+	color: red;
+}
+	
+}
