@@ -121,7 +121,7 @@
 			width: 100%;
 			height:60px;
 			color: white;
-			font-size: 0.75em;
+			font-size: 0.70em;
 			background-color: rgb(20,20,20);
 			overflow-y: auto;
 			text-align: center;
@@ -182,6 +182,8 @@
 			height: 120px;
 			width: auto;
 			opacity: 0.5;
+			position: relative;
+			left: 12.5%;
 		}
 
 
@@ -198,7 +200,7 @@
 			float: left;
 			background-color: rgba(20,20,20, 0.9);
 			overflow-y: auto;
-			font-size: 0.75em;
+			font-size: 0.70em;
 			overflow-x: hidden;
 		}
 
@@ -266,7 +268,7 @@
 			margin: 0 auto;
 			text-align: center;
 			overflow-y: auto;
-			font-size: 0.75em;
+			font-size: 0.70em;
 		}
 
 		#Ciampino{
@@ -276,7 +278,7 @@
 			margin: 0 auto;
 			text-align: center;
 			overflow-y: auto;
-			font-size: 0.75em;
+			font-size: 0.70em;
 		}
 
 		#img2 p{
@@ -315,7 +317,7 @@
 			text-align: right;
 			color: white;
 			overflow-y: auto;
-			font-size: 0.75em;
+			font-size: 0.70em;
 		}
 
 		#trentext p{
@@ -365,7 +367,7 @@
 			background-color: rgba(20,20,20, 0.9);
 			overflow-y: auto;
 			overflow-x: hidden;
-			font-size: 0.75em;
+			font-size: 0.70em;
 		}
 
 		#text3 p{
@@ -428,7 +430,7 @@
 			float: left;
 			overflow-y: auto;
 			overflow-x: hidden;
-			font-size: 0.75em;
+			font-size: 0.70em;
 		}
 
 		#Ciampino{
@@ -439,7 +441,7 @@
 			text-align: right;
 			overflow-y: auto;
 			overflow-x: hidden;
-			font-size: 0.75em;
+			font-size: 0.70em;
 		}
 
 		#img2 p{
@@ -451,7 +453,7 @@
 			width: 100%;
 			height:60px;
 			color: white;
-			font-size: 0.75em;
+			font-size: 0.70em;
 			background-color: rgb(20,20,20);
 			overflow-y: auto;
 			overflow-x: hidden;
@@ -480,7 +482,7 @@
 			color: white;
 			overflow-y: auto;
 			overflow-x: hidden;
-			font-size: 0.75em;
+			font-size: 0.70em;
 		}
 
 		#trentext p{

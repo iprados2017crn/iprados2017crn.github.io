@@ -129,6 +129,8 @@ h4{
 			height: 120px;
 			width: auto;
 			opacity: 0.5;
+			position: relative;
+			left: 12.5%;
 		}
 
 

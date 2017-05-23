@@ -112,7 +112,7 @@
 			margin-right: 25px;
 			color: white;
 			overflow-y: auto;
-			font-size: 0.75em;
+			font-size: 0.70em;
 		}
 
 		#historia{
@@ -136,7 +136,7 @@
 			margin-right: 25px;
 			color: white;
 			overflow-y: auto;
-			font-size: 0.75em;
+			font-size: 0.70em;
 		}
 	
 }
@@ -177,7 +177,7 @@
 			float: right;
 			background-color: rgba(20,20,20, 0.9);
 			overflow-y: auto;
-			font-size: 0.75em;
+			font-size: 0.70em;
 		}
 
 		#text1 p{
@@ -201,7 +201,7 @@
 			float: left;
 			background-color: rgba(20,20,20, 0.9);
 			overflow-y: auto;
-			font-size: 0.75em;
+			font-size: 0.70em;
 		}
 
 		#text2 p{
