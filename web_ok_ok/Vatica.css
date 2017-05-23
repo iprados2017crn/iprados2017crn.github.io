@@ -125,13 +125,14 @@ h4{
 	background-repeat: no-repeat;
 }
 
-		#img1{
-			height: 120px;
-			width: auto;
-			opacity: 0.5;
-			position: relative;
-			left: 12.5%;
-		}
+#img1{
+	height: 150px;
+	width: auto;
+	opacity: 0.5;
+	margin: 0 auto;
+	position: relative;
+	left: 12.5%;
+}
 
 
 .izq{
