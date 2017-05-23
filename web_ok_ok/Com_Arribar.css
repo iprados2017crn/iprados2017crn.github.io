@@ -179,11 +179,11 @@
 		}
 
 		#img1{
-			height: 150px;
+			height: 120px;
+			width: auto;
 			opacity: 0.5;
-			position: relative;
-			left: 20px;
 		}
+
 
 		#comarribar{
 			background-image: url(img/avio_movil.jpg);
