@@ -308,7 +308,7 @@ h4{
 }
 
 		#img1{
-			height: 120px;
+			height: 150px;
 			width: auto;
 			opacity: 0.5;
 			position: relative;
@@ -367,7 +367,7 @@ h4{
 
 .float{
 	float: left;
-  margin-left: 67px;
+  margin-left: 99px;
   margin-top: 30px; 
 }
 
