@@ -226,7 +226,7 @@ h4{
 	float: left;
 	text-align: left;
 	height: 100%;
-	width: 45%;
+	width: 50%;
 	background-color: rgba(20,20,20,0.9);
 	overflow-y: auto;
 	overflow-x: hidden;
@@ -239,7 +239,7 @@ h4{
 .izqu{
 	text-align: center;
 	margin: 0 auto;
-	height:154px;
+	height:auto;
 	width: 45%;
 	background-color: rgba(20,20,20,0.9);
 	overflow-y: auto;
@@ -254,7 +254,7 @@ h4{
 	float: right;
 	text-align: right;
 	height: 100%;
-	width: 45%;
+	width: 50%;
 	background-color: rgba(20,20,20,0.9);
 	overflow-y: auto;
 	overflow-x: hidden;
@@ -267,7 +267,7 @@ h4{
 #Queveure{
 	background-image: url(img/Que_veure/roma2_movil.jpg);
 	width: 100%;
-	height: 175px;
+	height: auto;
 	margin: 0 auto;
 }
 

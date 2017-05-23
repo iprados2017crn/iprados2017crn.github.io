@@ -37,10 +37,6 @@ li a:hover:not(.active) {
     color: white;
 }
 
-.ancho{
-	width: 100%;
-}
-
 }
 
 /*mobil*/
@@ -59,15 +55,16 @@ li a:hover:not(.active) {
     color: white;
     height: auto;
     color: white;
-    width: 110px;
+    width: 95px;
 
 }
 
 ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
-    width: 50px;
+    padding-left: 5px;
+    padding-top: 5px;
+    width: 100px;
     background-color: #f1f1f1;
     float: left;
         color: white;
@@ -86,10 +83,6 @@ li a.active {
 li a:hover:not(.active) {
     background-color: #555;
     color: white;
-}
-
-.ancho{
-    width: 100%;
 }
 
 }
@@ -136,10 +129,6 @@ li a.active {
 li a:hover:not(.active) {
     background-color: #555;
     color: white;
-}
-
-.ancho{
-    width: 100%;
 }
 
 }

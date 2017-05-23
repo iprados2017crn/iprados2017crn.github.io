@@ -180,9 +180,8 @@ h4{
 		}
 
 		#img1{
-			height: 165px;
+			height: 150px;
 			opacity: 0.5;
-			margin: 0 auto;
 			position: relative;
 			left: 12.5%;
 		}
@@ -226,7 +225,7 @@ h4{
 
 #Introduccióduccio{
 	width: 95%;
-	height: 125px;
+	height: auto;
 	text-align: center;
 	margin: 0 auto;
 	background-color: rgba(255,255,255,0.1);
@@ -235,7 +234,7 @@ h4{
 
 #Viaggia{
 	width: 95%;
-	height: 200px;
+	height: auto;
 	margin: 0;
 	margin: 0 auto;
 }
@@ -309,7 +308,7 @@ h4{
 
 #ebus{
 	width: 95%;
-	height: 120px;
+	height: auto;
 	background-color: rgba(255,255,255,0.1);
 	overflow-y: auto;
 	margin: 0 auto;
