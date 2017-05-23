@@ -121,7 +121,7 @@
 			width: 100%;
 			height:60px;
 			color: white;
-			font-size: 0.8em;
+			font-size: 0.75em;
 			background-color: rgb(20,20,20);
 			overflow-y: auto;
 			text-align: center;
@@ -198,7 +198,7 @@
 			float: left;
 			background-color: rgba(20,20,20, 0.9);
 			overflow-y: auto;
-			font-size: 0.8em;
+			font-size: 0.75em;
 			overflow-x: hidden;
 		}
 
@@ -266,7 +266,7 @@
 			margin: 0 auto;
 			text-align: center;
 			overflow-y: auto;
-			font-size: 0.8em;
+			font-size: 0.75em;
 		}
 
 		#Ciampino{
@@ -276,7 +276,7 @@
 			margin: 0 auto;
 			text-align: center;
 			overflow-y: auto;
-			font-size: 0.8em;
+			font-size: 0.75em;
 		}
 
 		#img2 p{
@@ -315,7 +315,7 @@
 			text-align: right;
 			color: white;
 			overflow-y: auto;
-			font-size: 0.8em;
+			font-size: 0.75em;
 		}
 
 		#trentext p{
@@ -365,7 +365,7 @@
 			background-color: rgba(20,20,20, 0.9);
 			overflow-y: auto;
 			overflow-x: hidden;
-			font-size: 0.8em;
+			font-size: 0.75em;
 		}
 
 		#text3 p{
@@ -428,7 +428,7 @@
 			float: left;
 			overflow-y: auto;
 			overflow-x: hidden;
-			font-size: 0.8em;
+			font-size: 0.75em;
 		}
 
 		#Ciampino{
@@ -439,7 +439,7 @@
 			text-align: right;
 			overflow-y: auto;
 			overflow-x: hidden;
-			font-size: 0.8em;
+			font-size: 0.75em;
 		}
 
 		#img2 p{
@@ -451,7 +451,7 @@
 			width: 100%;
 			height:60px;
 			color: white;
-			font-size: 0.8em;
+			font-size: 0.75em;
 			background-color: rgb(20,20,20);
 			overflow-y: auto;
 			overflow-x: hidden;
@@ -480,7 +480,7 @@
 			color: white;
 			overflow-y: auto;
 			overflow-x: hidden;
-			font-size: 0.8em;
+			font-size: 0.75em;
 		}
 
 		#trentext p{
